@@ -68,9 +68,8 @@
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="YaronThurm.Network, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\YaronThurm.Network\YaronThurm.Network\bin\Release\YaronThurm.Network.dll</HintPath>
+    <Reference Include="YaronThurm.Network">
+      <HintPath>Dependencies\YaronThurm.Network.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -163,6 +162,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Dependencies\YaronThurm.Network.dll" />
+    <Content Include="Dependencies\YaronThurm.Network.pdb" />
     <Content Include="Icon - Green-Red.ico" />
     <None Include="putty.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -198,6 +199,7 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
