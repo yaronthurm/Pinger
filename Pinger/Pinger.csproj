@@ -73,6 +73,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Code\RapidPinger.cs" />
     <Compile Include="Code\FrmAbout.cs">
       <SubType>Form</SubType>
     </Compile>
