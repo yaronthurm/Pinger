@@ -9,6 +9,9 @@ using System.Windows.Forms;
 
 namespace PingTester {
     public partial class FrmRapid : Form {
+        private RapidPinger _rapidPinger;
+        private int _countDown;
+
         public FrmRapid()
         {
             InitializeComponent();
@@ -21,7 +24,7 @@ namespace PingTester {
                 this.Invoke(eh, new object[] { sender, e });
             }
             else {
-                this.label1.Text = "Success: " + e.TotalSuccess + "  Fail: " + e.TotalFail;
+                this.lblStatus.Text = "Count down: " +_countDown + "   Success: " + e.TotalSuccess + "   Fail: " + e.TotalFail;
             }
         }
 
@@ -29,10 +32,16 @@ namespace PingTester {
         {
             string host = this.txtDestination.Text;
             int usersCount = (int)this.numericUsersCount.Value;
-            int durationInSec = (int)this.numericDuration.Value;
-            var rapid = new RapidPinger(host, usersCount, TimeSpan.FromSeconds(durationInSec), 10);
-            rapid.ReplyRecieved += rapid_ReplyRecieved;
-            rapid.Start();
+            _countDown = (int)this.numericDuration.Value;
+            _rapidPinger = new RapidPinger(host, usersCount, 10);
+            _rapidPinger.ReplyRecieved += rapid_ReplyRecieved;
+            _rapidPinger.Start();
+
+            this.btnStart.Enabled = false;
+            this.btnStop.Enabled = true;
+            this.timer1.Enabled = true;
+            this.txtMessages.Text = "";
+            this.txtMessages.Visible = false;
         }
 
         public void SetDestination(string destination)
@@ -46,6 +55,28 @@ namespace PingTester {
                 e.Cancel = true;
                 this.Hide();
             }
+        }
+
+        private void btnStop_Click(object sender, EventArgs e)
+        {
+            this.timer1.Enabled = false;
+
+            _rapidPinger.Stop();
+
+            this.btnStart.Enabled = true;
+            this.btnStop.Enabled = false;
+            if (_rapidPinger.FailureMessages.Count > 0) {
+                this.txtMessages.Text = string.Join("\r\n", _rapidPinger.FailureMessages);
+                this.txtMessages.Visible = true;
+            }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (_countDown == 0)
+                btnStop_Click(null, null);
+            else
+                _countDown--;
         }
     }
 }

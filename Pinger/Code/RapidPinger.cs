@@ -25,20 +25,19 @@ namespace PingTester
         private int _totalSuccess;
         private int _totalFail;
         private int _totalUnknown;
-        private Timer _stopTimer;
 
         public event RapidPingerReplyRecievedHandler ReplyRecieved;
 
         public PingPerformer[] Pingers { get; private set; }
-        public TimeSpan Duration { get; private set; }
         public int UsersCount { get; private set; }
         public int AggregationCount { get; private set; }
+        public List<string> FailureMessages { get; private set; }
 
 
-        public RapidPinger(string host, int usersCount, TimeSpan duration, int aggregationCount)
+        public RapidPinger(string host, int usersCount, int aggregationCount)
         {
+            this.FailureMessages = new List<string>();
             this.AggregationCount = aggregationCount;
-            this.Duration = duration;
             this.UsersCount = usersCount;
             this.Pingers = new PingPerformer[this.UsersCount];
             for (int i = 0; i < this.Pingers.Length; i++) {
@@ -52,12 +51,9 @@ namespace PingTester
         {
             foreach (var pinger in this.Pingers)
                 pinger.Start();
-
-            this._stopTimer = new Timer(stopTimer_Elapsed, null, this.Duration, TimeSpan.FromMilliseconds(-1));
         }
 
-
-        private void stopTimer_Elapsed(object state)
+        public void Stop()
         {
             foreach (var pinger in this.Pingers)
                 pinger.Stop();
@@ -74,12 +70,16 @@ namespace PingTester
                 return;
 
             lock (_locker) {
-                if (e.State == State.Failure)
+                if (e.State == State.Failure) {
                     _totalFail++;
+                    this.FailureMessages.Add(e.Message);
+                }
                 else if (e.State == State.Success || e.State == State.Transient)
                     _totalSuccess++;
-                else
+                else {
                     _totalUnknown++;
+                    this.FailureMessages.Add(e.Message);
+                }
 
                 if (AggragationCountReached()) {
                     var newEvent = new RapidPingerEventArgs(_totalSuccess, _totalFail);
