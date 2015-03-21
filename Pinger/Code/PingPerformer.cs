@@ -10,28 +10,16 @@ namespace PingTester
     // Event arguments    
     public class PingPerformerEventArgs : EventArgs
     {
-        private State _newState;
-        public State NewState
+        public State State       { get; private set;}
+        public string Message       { get; private set;}
+        
+        public PingPerformerEventArgs(State state, string message)
         {
-            get { return this._newState; }
-        }
-
-        private string _message;
-        public string Message
-        {
-            get { return this._message; }
-        }
-
-        public PingPerformerEventArgs(State newState)
-        {
-            this._newState = newState;
-        }
-        public PingPerformerEventArgs(string message)
-        {
-            this._message = message;
+            this.State = state;
+            this.Message = message;
         }
     }
-
+    
     // Delegates    
     public delegate void StateChangeHandler(PingPerformer sender, PingPerformerEventArgs e);
     public delegate void ReplyRecievedHandler(PingPerformer sender, PingPerformerEventArgs e);
@@ -185,7 +173,7 @@ namespace PingTester
 
                 this.state = State.Transient;
                 if (this.StateChanged != null) {
-                    PingPerformerEventArgs e = new PingPerformerEventArgs(this.state);
+                    PingPerformerEventArgs e = new PingPerformerEventArgs(this.state, "state changed");
                     this.StateChanged.BeginInvoke(this, e, null, null);
                 }
             }
@@ -194,7 +182,7 @@ namespace PingTester
                 // If it's not, change it and raise an event.
                 this.state = State.Success;
                 if (this.StateChanged != null) {
-                    PingPerformerEventArgs e = new PingPerformerEventArgs(this.state);
+                    PingPerformerEventArgs e = new PingPerformerEventArgs(this.state, "state changed");
                     this.StateChanged.BeginInvoke(this, e, null, null);
                 }
             }
@@ -210,7 +198,7 @@ namespace PingTester
             if (this.state != State.Failure) {
                 this.state = State.Failure;
                 if (this.StateChanged != null) {
-                    PingPerformerEventArgs e = new PingPerformerEventArgs(this.state);
+                    PingPerformerEventArgs e = new PingPerformerEventArgs(this.state, "state changed");
                     this.StateChanged.BeginInvoke(this, e, null, null);
                 }
             }
@@ -222,7 +210,7 @@ namespace PingTester
             message = this.sequentNumber + ")  " + System.DateTime.Now.ToString() + "  " + message;
 
             if (this.ReplyRecieved != null) {
-                PingPerformerEventArgs e = new PingPerformerEventArgs(message);
+                PingPerformerEventArgs e = new PingPerformerEventArgs(this.state, message);
                 this.ReplyRecieved.BeginInvoke(this, e, null, null);
             }
         }
@@ -281,7 +269,8 @@ namespace PingTester
                 }
 
                 // Sleep
-                System.Threading.Thread.Sleep(this.pingInterval);
+                if (this.pingInterval > 0)
+                    System.Threading.Thread.Sleep(this.pingInterval);
             }            
         }
         

@@ -668,17 +668,17 @@ namespace PingTester
                     if (sender.IsStopping)
                         return;
 
-                    if (e.NewState == State.Success)
+                    if (e.State == State.Success)
                     {                        
                         this.listView.Items[index].BackColor = Color.Lime;
                         this.listView.Items[index].ImageIndex = (int)StateImageID.Success;
                     }
-                    else if (e.NewState == State.Failure)
+                    else if (e.State == State.Failure)
                     {                        
                         this.listView.Items[index].BackColor = Color.Red;
                         this.listView.Items[index].ImageIndex = (int)StateImageID.Failure;
                     }
-                    else if (e.NewState == State.Transient)
+                    else if (e.State == State.Transient)
                     {                        
                         this.listView.Items[index].BackColor = Color.Yellow;
                         this.listView.Items[index].ImageIndex = (int)StateImageID.Success;
