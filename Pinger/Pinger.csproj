@@ -66,13 +66,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
     <Reference Include="YaronThurm.Network">
       <HintPath>Dependencies\YaronThurm.Network.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Code\FrmRapid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Code\FrmRapid.Designer.cs">
+      <DependentUpon>FrmRapid.cs</DependentUpon>
+    </Compile>
     <Compile Include="Code\RapidPinger.cs" />
     <Compile Include="Code\FrmAbout.cs">
       <SubType>Form</SubType>
@@ -134,6 +142,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Code\FrmPingLog.resx">
       <DependentUpon>FrmPingLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\FrmRapid.resx">
+      <DependentUpon>FrmRapid.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Code\FrmSettings.resx">
       <DependentUpon>FrmSettings.cs</DependentUpon>

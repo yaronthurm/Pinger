@@ -25,6 +25,7 @@ namespace PingTester
         private int _totalSuccess;
         private int _totalFail;
         private int _totalUnknown;
+        private Timer _stopTimer;
 
         public event RapidPingerReplyRecievedHandler ReplyRecieved;
 
@@ -41,12 +42,31 @@ namespace PingTester
             this.UsersCount = usersCount;
             this.Pingers = new PingPerformer[this.UsersCount];
             for (int i = 0; i < this.Pingers.Length; i++) {
-                var pinger = new PingPerformer("", host, 0, 10, 32, true, 0, 0);
+                var pinger = new PingPerformer("", host, 0, 10, 32, true, 2000, 0);
                 pinger.ReplyRecieved += pinger_ReplyRecieved;
                 this.Pingers[i] = pinger;
             }
         }
 
+        public void Start()
+        {
+            foreach (var pinger in this.Pingers)
+                pinger.Start();
+
+            this._stopTimer = new Timer(stopTimer_Elapsed, null, this.Duration, TimeSpan.FromMilliseconds(-1));
+        }
+
+
+        private void stopTimer_Elapsed(object state)
+        {
+            foreach (var pinger in this.Pingers)
+                pinger.Stop();
+
+            if (this.ReplyRecieved != null) {
+                var newEvent = new RapidPingerEventArgs(_totalSuccess, _totalFail);
+                this.ReplyRecieved.BeginInvoke(this, newEvent, null, null);
+            }
+        }
 
         private void pinger_ReplyRecieved(PingPerformer sender, PingPerformerEventArgs e)
         {
