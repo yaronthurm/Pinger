@@ -48,6 +48,8 @@ namespace PingTester
         /// ttl, timeout delay, ping interval etc.
         /// </summary>
         private FrmSettings _settingsForm;
+
+        private FrmRapid _rapidForm;
         
         /// <summary>
         /// The form that will give the user the ability to add multiple destinations at once.
@@ -113,6 +115,7 @@ namespace PingTester
             this._settingsForm = new FrmSettings();
             this._autoInsertForm = new FrmAutoInsert();
             this._editItemForm = new FrmEditItem();
+            this._rapidForm = new FrmRapid();
             this._ipNotifier = new YaronThurm.Network.IPChangeNotifier();
 
             // Set form's icons
@@ -582,6 +585,19 @@ namespace PingTester
         {
             ShowStats();
         }
+        private void menuStopPing_Rapid_Click(object sender, EventArgs e)
+        {
+            PingPerformer pinger = null;
+            foreach (int index in this.listView.SelectedIndices) {
+                pinger = this._pingPerformers[index];
+                break;
+            }
+            if (pinger == null) return;
+
+            this._rapidForm.SetDestination(pinger.DestinationAddress);
+            this._rapidForm.Show();
+            this._rapidForm.Focus();
+        }
         private void menuStopPing_VNC_Click(object sender, EventArgs e)
         {
             if (this.listView.SelectedItems.Count <= 0)
@@ -862,6 +878,7 @@ namespace PingTester
                 this._settingsForm.Icon = this._formsIcons[iconIndex];
                 this._autoInsertForm.Icon = this._formsIcons[iconIndex];
                 this._editItemForm.Icon = this._formsIcons[iconIndex];
+                this._rapidForm.Icon = this._formsIcons[iconIndex];
                 foreach (FrmPingLog log in this._logForms)
                     log.Icon = this._formsIcons[iconIndex];
                 foreach (FrmStatistics stat in this._statisticsForms)

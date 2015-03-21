@@ -57,6 +57,11 @@
             this.menuStopPing_Edit = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStopPing_Remove = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStopPing_Stats = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.menuStopPing_VNC = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStopPing_RemoteDesktop = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStopPing_Telnet = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStopPing_SSH = new System.Windows.Forms.ToolStripMenuItem();
             this.menuResumePing = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuResumePing_Start = new System.Windows.Forms.ToolStripMenuItem();
             this.menuResumePing_Edit = new System.Windows.Forms.ToolStripMenuItem();
@@ -66,11 +71,7 @@
             this.lblIPAddressTitle = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblIPv4Address = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
-            this.menuStopPing_VNC = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStopPing_RemoteDesktop = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStopPing_Telnet = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStopPing_SSH = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.menuStopPing_Rapid = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericFontSize)).BeginInit();
             this.menuStopPing.SuspendLayout();
@@ -296,6 +297,7 @@
             this.menuStopPing_Edit,
             this.menuStopPing_Remove,
             this.menuStopPing_Stats,
+            this.menuStopPing_Rapid,
             this.toolStripSeparator1,
             this.menuStopPing_VNC,
             this.menuStopPing_RemoteDesktop,
@@ -303,7 +305,7 @@
             this.menuStopPing_SSH});
             this.menuStopPing.Name = "menuStopPing";
             this.menuStopPing.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.menuStopPing.Size = new System.Drawing.Size(167, 208);
+            this.menuStopPing.Size = new System.Drawing.Size(167, 230);
             // 
             // menuStopPing_Stop
             // 
@@ -332,6 +334,39 @@
             this.menuStopPing_Stats.Size = new System.Drawing.Size(166, 22);
             this.menuStopPing_Stats.Text = "הצג סטטיסטיקה";
             this.menuStopPing_Stats.Click += new System.EventHandler(this.menuStopPing_Stats_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(163, 6);
+            // 
+            // menuStopPing_VNC
+            // 
+            this.menuStopPing_VNC.Name = "menuStopPing_VNC";
+            this.menuStopPing_VNC.Size = new System.Drawing.Size(166, 22);
+            this.menuStopPing_VNC.Text = "Ultra VNC";
+            this.menuStopPing_VNC.Click += new System.EventHandler(this.menuStopPing_VNC_Click);
+            // 
+            // menuStopPing_RemoteDesktop
+            // 
+            this.menuStopPing_RemoteDesktop.Name = "menuStopPing_RemoteDesktop";
+            this.menuStopPing_RemoteDesktop.Size = new System.Drawing.Size(166, 22);
+            this.menuStopPing_RemoteDesktop.Text = "Remote Desktop";
+            this.menuStopPing_RemoteDesktop.Click += new System.EventHandler(this.menuStopPing_RemoteDesktop_Click);
+            // 
+            // menuStopPing_Telnet
+            // 
+            this.menuStopPing_Telnet.Name = "menuStopPing_Telnet";
+            this.menuStopPing_Telnet.Size = new System.Drawing.Size(166, 22);
+            this.menuStopPing_Telnet.Text = "Telnet";
+            this.menuStopPing_Telnet.Click += new System.EventHandler(this.menuStopPing_Telnet_Click);
+            // 
+            // menuStopPing_SSH
+            // 
+            this.menuStopPing_SSH.Name = "menuStopPing_SSH";
+            this.menuStopPing_SSH.Size = new System.Drawing.Size(166, 22);
+            this.menuStopPing_SSH.Text = "SSH";
+            this.menuStopPing_SSH.Click += new System.EventHandler(this.menuStopPing_SSH_Click);
             // 
             // menuResumePing
             // 
@@ -406,38 +441,12 @@
             this.toolStripDropDownButton1.Text = "All IP Addresses";
             this.toolStripDropDownButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             // 
-            // menuStopPing_VNC
+            // menuStopPing_Rapid
             // 
-            this.menuStopPing_VNC.Name = "menuStopPing_VNC";
-            this.menuStopPing_VNC.Size = new System.Drawing.Size(166, 22);
-            this.menuStopPing_VNC.Text = "Ultra VNC";
-            this.menuStopPing_VNC.Click += new System.EventHandler(this.menuStopPing_VNC_Click);
-            // 
-            // menuStopPing_RemoteDesktop
-            // 
-            this.menuStopPing_RemoteDesktop.Name = "menuStopPing_RemoteDesktop";
-            this.menuStopPing_RemoteDesktop.Size = new System.Drawing.Size(166, 22);
-            this.menuStopPing_RemoteDesktop.Text = "Remote Desktop";
-            this.menuStopPing_RemoteDesktop.Click += new System.EventHandler(this.menuStopPing_RemoteDesktop_Click);
-            // 
-            // menuStopPing_Telnet
-            // 
-            this.menuStopPing_Telnet.Name = "menuStopPing_Telnet";
-            this.menuStopPing_Telnet.Size = new System.Drawing.Size(166, 22);
-            this.menuStopPing_Telnet.Text = "Telnet";
-            this.menuStopPing_Telnet.Click += new System.EventHandler(this.menuStopPing_Telnet_Click);
-            // 
-            // menuStopPing_SSH
-            // 
-            this.menuStopPing_SSH.Name = "menuStopPing_SSH";
-            this.menuStopPing_SSH.Size = new System.Drawing.Size(166, 22);
-            this.menuStopPing_SSH.Text = "SSH";
-            this.menuStopPing_SSH.Click += new System.EventHandler(this.menuStopPing_SSH_Click);
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(163, 6);
+            this.menuStopPing_Rapid.Name = "menuStopPing_Rapid";
+            this.menuStopPing_Rapid.Size = new System.Drawing.Size(166, 22);
+            this.menuStopPing_Rapid.Text = "Rapid...";
+            this.menuStopPing_Rapid.Click += new System.EventHandler(this.menuStopPing_Rapid_Click);
             // 
             // FrmMain
             // 
@@ -518,6 +527,7 @@
         private System.Windows.Forms.ToolStripMenuItem menuStopPing_RemoteDesktop;
         private System.Windows.Forms.ToolStripMenuItem menuStopPing_Telnet;
         private System.Windows.Forms.ToolStripMenuItem menuStopPing_SSH;
+        private System.Windows.Forms.ToolStripMenuItem menuStopPing_Rapid;
     }
 }
 

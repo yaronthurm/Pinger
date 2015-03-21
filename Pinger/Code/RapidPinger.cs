@@ -42,7 +42,7 @@ namespace PingTester
             this.UsersCount = usersCount;
             this.Pingers = new PingPerformer[this.UsersCount];
             for (int i = 0; i < this.Pingers.Length; i++) {
-                var pinger = new PingPerformer("", host, 0, 10, 32, true, 2000, 0);
+                var pinger = new PingPerformer("", host, 0, 100, 32, true, 2000, 0);
                 pinger.ReplyRecieved += pinger_ReplyRecieved;
                 this.Pingers[i] = pinger;
             }

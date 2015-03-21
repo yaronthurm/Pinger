@@ -14,13 +14,6 @@ namespace PingTester {
             InitializeComponent();
         }
 
-        private void FrmRapid_Load(object sender, EventArgs e)
-        {
-            var rapid = new RapidPinger("127.0.0.1", 1, TimeSpan.FromSeconds(5), 10);
-            rapid.ReplyRecieved += rapid_ReplyRecieved;
-            rapid.Start();
-        }
-
         private void rapid_ReplyRecieved(RapidPinger sender, RapidPingerEventArgs e)
         {
             if (this.InvokeRequired) {
@@ -29,6 +22,29 @@ namespace PingTester {
             }
             else {
                 this.label1.Text = "Success: " + e.TotalSuccess + "  Fail: " + e.TotalFail;
+            }
+        }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            string host = this.txtDestination.Text;
+            int usersCount = (int)this.numericUsersCount.Value;
+            int durationInSec = (int)this.numericDuration.Value;
+            var rapid = new RapidPinger(host, usersCount, TimeSpan.FromSeconds(durationInSec), 10);
+            rapid.ReplyRecieved += rapid_ReplyRecieved;
+            rapid.Start();
+        }
+
+        public void SetDestination(string destination)
+        {
+            this.txtDestination.Text = destination;
+        }
+
+        private void FrmRapid_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing) {
+                e.Cancel = true;
+                this.Hide();
             }
         }
     }
