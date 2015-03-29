@@ -183,6 +183,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblStatus);
             this.Name = "FrmRapid";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmRapid";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmRapid_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.numericUsersCount)).EndInit();
