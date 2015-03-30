@@ -650,7 +650,7 @@ namespace PingTester
                     return;
                 
                 this._logForms[index].AddMessage(e.Message);
-                this._statisticsForms[index].SetStatistics(sender);
+                this._statisticsForms[index].SetStatistics(sender, e.Reply != null? (long?)e.Reply.RoundtripTime: null);
                 
             }
             catch
