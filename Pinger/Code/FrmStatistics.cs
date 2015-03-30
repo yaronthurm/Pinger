@@ -143,6 +143,7 @@ namespace PingTester
             this._currentState = State.Unknown;
             this.SetNewState(this._pinger.PingState);
             this._roundTrips.Clear();
+            this.lblStats.Text = this.GetStatsText();
         }
 
         private void timerUpdateView_Tick(object sender, EventArgs e)
