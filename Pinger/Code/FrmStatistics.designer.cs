@@ -32,13 +32,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmStatistics));
             this.lblPercent = new System.Windows.Forms.Label();
             this.listView = new System.Windows.Forms.ListView();
-            this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.imagePingState = new System.Windows.Forms.ImageList(this.components);
             this.lblFailed = new System.Windows.Forms.Label();
             this.lblSuccessed = new System.Windows.Forms.Label();
             this.btnResetStatistics = new System.Windows.Forms.Button();
             this.timerUpdateView = new System.Windows.Forms.Timer(this.components);
-            this.imagePingState = new System.Windows.Forms.ImageList(this.components);
+            this.lblStats = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblPercent
@@ -54,20 +55,20 @@
             // listView
             // 
             this.listView.AllowDrop = true;
-            this.listView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.listView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.listView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2});
             this.listView.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.listView.FullRowSelect = true;
             this.listView.GridLines = true;
-            this.listView.Location = new System.Drawing.Point(3, 97);
+            this.listView.Location = new System.Drawing.Point(3, 117);
             this.listView.Name = "listView";
             this.listView.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.listView.RightToLeftLayout = true;
-            this.listView.Size = new System.Drawing.Size(314, 251);
+            this.listView.Size = new System.Drawing.Size(314, 270);
             this.listView.SmallImageList = this.imagePingState;
             this.listView.TabIndex = 7;
             this.listView.UseCompatibleStateImageBehavior = false;
@@ -82,6 +83,14 @@
             // 
             this.columnHeader2.Text = "מספר נסיונות";
             this.columnHeader2.Width = 106;
+            // 
+            // imagePingState
+            // 
+            this.imagePingState.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imagePingState.ImageStream")));
+            this.imagePingState.TransparentColor = System.Drawing.Color.Transparent;
+            this.imagePingState.Images.SetKeyName(0, "israel stop sign.png");
+            this.imagePingState.Images.SetKeyName(1, "X.png");
+            this.imagePingState.Images.SetKeyName(2, "V2.png");
             // 
             // lblFailed
             // 
@@ -122,25 +131,28 @@
             this.timerUpdateView.Interval = 2000;
             this.timerUpdateView.Tick += new System.EventHandler(this.timerUpdateView_Tick);
             // 
-            // imagePingState
+            // lblStats
             // 
-            this.imagePingState.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imagePingState.ImageStream")));
-            this.imagePingState.TransparentColor = System.Drawing.Color.Transparent;
-            this.imagePingState.Images.SetKeyName(0, "israel stop sign.png");
-            this.imagePingState.Images.SetKeyName(1, "X.png");
-            this.imagePingState.Images.SetKeyName(2, "V2.png");
+            this.lblStats.AutoSize = true;
+            this.lblStats.ForeColor = System.Drawing.Color.Black;
+            this.lblStats.Location = new System.Drawing.Point(13, 101);
+            this.lblStats.Name = "lblStats";
+            this.lblStats.Size = new System.Drawing.Size(57, 13);
+            this.lblStats.TabIndex = 10;
+            this.lblStats.Text = "Stats: N/A";
             // 
-            // frmStatistics
+            // FrmStatistics
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(326, 358);
+            this.ClientSize = new System.Drawing.Size(326, 389);
+            this.Controls.Add(this.lblStats);
             this.Controls.Add(this.btnResetStatistics);
             this.Controls.Add(this.lblSuccessed);
             this.Controls.Add(this.lblFailed);
             this.Controls.Add(this.lblPercent);
             this.Controls.Add(this.listView);
-            this.Name = "frmStatistics";
+            this.Name = "FrmStatistics";
             this.Text = "frmStatistics";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmStatistics_FormClosing);
             this.ResumeLayout(false);
@@ -159,5 +171,6 @@
         private System.Windows.Forms.Button btnResetStatistics;
         private System.Windows.Forms.Timer timerUpdateView;
         public System.Windows.Forms.ImageList imagePingState;
+        private System.Windows.Forms.Label lblStats;
     }
 }
