@@ -142,6 +142,7 @@ namespace PingTester
             this.listView.Items.Clear();
             this._currentState = State.Unknown;
             this.SetNewState(this._pinger.PingState);
+            this._roundTrips.Clear();
         }
 
         private void timerUpdateView_Tick(object sender, EventArgs e)
