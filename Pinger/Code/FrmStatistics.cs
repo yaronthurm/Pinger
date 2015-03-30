@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Windows.Forms;
 
 namespace PingTester
@@ -10,6 +11,7 @@ namespace PingTester
         private ulong _currentStateCounter = 0;
         private PingPerformer _pinger;
         private PingTester.State _currentState;
+        private List<long> _roundTrips = new List<long>();
 
 
         public FrmStatistics()
@@ -19,13 +21,13 @@ namespace PingTester
             this._currentState = State.Unknown;
         }
 
-        delegate void SetStatisticsHandler(PingPerformer pinger);
-        public void SetStatistics(PingPerformer pinger)
+        delegate void SetStatisticsHandler(PingPerformer pinger, long? roundTrip);
+        public void SetStatistics(PingPerformer pinger, long? roundTrip)
         {
             if (this.InvokeRequired)
             {
                 SetStatisticsHandler del = new SetStatisticsHandler(this.SetStatistics);
-                this.Invoke(del, new object[] { pinger });
+                this.Invoke(del, new object[] { pinger, roundTrip });
             }
             else
             {
@@ -50,6 +52,9 @@ namespace PingTester
                     this.SetNewState(pingerState);
                 else
                     this._currentStateCounter++;
+
+                if (roundTrip != null)
+                    _roundTrips.Add(roundTrip.Value);
             }
         }
         
