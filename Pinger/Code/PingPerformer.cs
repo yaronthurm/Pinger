@@ -12,11 +12,13 @@ namespace PingTester
     {
         public State State       { get; private set;}
         public string Message       { get; private set;}
-        
-        public PingPerformerEventArgs(State state, string message)
+        public PingReply Reply { get; private set; }
+
+        public PingPerformerEventArgs(State state, string message, PingReply reply)
         {
             this.State = state;
             this.Message = message;
+            this.Reply = reply;
         }
     }
     
@@ -173,7 +175,7 @@ namespace PingTester
 
                 this.state = State.Transient;
                 if (this.StateChanged != null) {
-                    PingPerformerEventArgs e = new PingPerformerEventArgs(this.state, "state changed");
+                    PingPerformerEventArgs e = new PingPerformerEventArgs(this.state, "state changed", null);
                     this.StateChanged.BeginInvoke(this, e, null, null);
                 }
             }
@@ -182,7 +184,7 @@ namespace PingTester
                 // If it's not, change it and raise an event.
                 this.state = State.Success;
                 if (this.StateChanged != null) {
-                    PingPerformerEventArgs e = new PingPerformerEventArgs(this.state, "state changed");
+                    PingPerformerEventArgs e = new PingPerformerEventArgs(this.state, "state changed", null);
                     this.StateChanged.BeginInvoke(this, e, null, null);
                 }
             }
@@ -198,38 +200,36 @@ namespace PingTester
             if (this.state != State.Failure) {
                 this.state = State.Failure;
                 if (this.StateChanged != null) {
-                    PingPerformerEventArgs e = new PingPerformerEventArgs(this.state, "state changed");
+                    PingPerformerEventArgs e = new PingPerformerEventArgs(this.state, "state changed", null);
                     this.StateChanged.BeginInvoke(this, e, null, null);
                 }
             }
         }
 
-        private void WriteMsgToLog(string message)
+        private string ExtractMessageFromReply(PingReply reply)
+        {
+            string ret;
+
+            if (reply.Status == IPStatus.Success) {
+                ret = string.Format("Reply from: {0}:  bytes = {1}  time = {2}ms  TTL= {3}",
+                    reply.Address.ToString(), reply.Buffer.Length, reply.RoundtripTime, reply.Options.Ttl);
+            }
+            else {
+                ret = reply.Status.ToString();
+            }
+
+            return ret;
+        }
+
+        private void WriteMsgToLog(string message, PingReply reply)
         {
             this.sequentNumber++;
             message = this.sequentNumber + ")  " + System.DateTime.Now.ToString() + "  " + message;
 
             if (this.ReplyRecieved != null) {
-                PingPerformerEventArgs e = new PingPerformerEventArgs(this.state, message);
+                PingPerformerEventArgs e = new PingPerformerEventArgs(this.state, message, reply);
                 this.ReplyRecieved.BeginInvoke(this, e, null, null);
             }
-        }
-
-        private void WriteMsgToLog(PingReply reply)
-        {
-            string msg;
-
-            if (reply.Status == IPStatus.Success)
-            {
-                msg = string.Format("Reply from: {0}:  bytes = {1}  time = {2}ms  TTL= {3}", 
-                    reply.Address.ToString(), reply.Buffer.Length, reply.RoundtripTime, reply.Options.Ttl);
-            }
-            else
-            {
-                msg = reply.Status.ToString();
-            }
-
-            this.WriteMsgToLog(msg);                        
         }
 
         private void RunThread()
@@ -253,19 +253,20 @@ namespace PingTester
                     else
                         this.Failed();
 
-                    this.WriteMsgToLog(reply);
+                    string msg = this.ExtractMessageFromReply(reply);
+                    this.WriteMsgToLog(msg, reply);
                 }
                 catch (PingException)
                 {
                     this.Failed();
                     this.WriteMsgToLog("Ping request could not find " + this.destinationAddress +
-                        ". Please check the name.");
+                        ". Please check the name.", null);
                 }
                 catch (Exception)
                 {
                     this.Failed();
                     this.WriteMsgToLog("Ping request could not find " + this.destinationAddress +
-                        ". Please check the name.");
+                        ". Please check the name.", null);
                 }
 
                 // Sleep
