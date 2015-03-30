@@ -57,6 +57,7 @@
             this.menuStopPing_Edit = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStopPing_Remove = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStopPing_Stats = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStopPing_Rapid = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.menuStopPing_VNC = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStopPing_RemoteDesktop = new System.Windows.Forms.ToolStripMenuItem();
@@ -71,7 +72,6 @@
             this.lblIPAddressTitle = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblIPv4Address = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
-            this.menuStopPing_Rapid = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericFontSize)).BeginInit();
             this.menuStopPing.SuspendLayout();
@@ -81,79 +81,63 @@
             // 
             // menuStrip
             // 
+            resources.ApplyResources(this.menuStrip, "menuStrip");
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuFile,
             this.menuSettings,
             this.menuAutoInsert,
             this.menuAbout});
-            this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(309, 24);
-            this.menuStrip.TabIndex = 0;
-            this.menuStrip.Text = "menuStrip1";
             // 
             // menuFile
             // 
+            resources.ApplyResources(this.menuFile, "menuFile");
             this.menuFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuOpen,
             this.menuSave});
             this.menuFile.Name = "menuFile";
-            this.menuFile.Size = new System.Drawing.Size(46, 20);
-            this.menuFile.Text = "קובץ";
             // 
             // menuOpen
             // 
+            resources.ApplyResources(this.menuOpen, "menuOpen");
             this.menuOpen.Name = "menuOpen";
-            this.menuOpen.Size = new System.Drawing.Size(149, 22);
-            this.menuOpen.Text = "פתח..";
             this.menuOpen.Click += new System.EventHandler(this.menuOpen_Click);
             // 
             // menuSave
             // 
+            resources.ApplyResources(this.menuSave, "menuSave");
             this.menuSave.Name = "menuSave";
-            this.menuSave.Size = new System.Drawing.Size(149, 22);
-            this.menuSave.Text = "שמירה בשם..";
             this.menuSave.Click += new System.EventHandler(this.menuSave_Click);
             // 
             // menuSettings
             // 
+            resources.ApplyResources(this.menuSettings, "menuSettings");
             this.menuSettings.Name = "menuSettings";
-            this.menuSettings.Size = new System.Drawing.Size(69, 20);
-            this.menuSettings.Text = "הגדרות..";
             this.menuSettings.Click += new System.EventHandler(this.menuSettings_Click);
             // 
             // menuAutoInsert
             // 
+            resources.ApplyResources(this.menuAutoInsert, "menuAutoInsert");
             this.menuAutoInsert.Name = "menuAutoInsert";
-            this.menuAutoInsert.Size = new System.Drawing.Size(111, 20);
-            this.menuAutoInsert.Text = "הכנסה אוטומטית";
             this.menuAutoInsert.Click += new System.EventHandler(this.menuAutoInsert_Click);
             // 
             // menuAbout
             // 
+            resources.ApplyResources(this.menuAbout, "menuAbout");
             this.menuAbout.Name = "menuAbout";
-            this.menuAbout.Size = new System.Drawing.Size(51, 20);
-            this.menuAbout.Text = "אודות";
             this.menuAbout.Click += new System.EventHandler(this.menuAbout_Click);
             // 
             // listView
             // 
+            resources.ApplyResources(this.listView, "listView");
             this.listView.AllowDrop = true;
-            this.listView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.listView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2});
-            this.listView.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.listView.FullRowSelect = true;
             this.listView.GridLines = true;
-            this.listView.Location = new System.Drawing.Point(12, 131);
             this.listView.Name = "listView";
-            this.listView.RightToLeftLayout = true;
-            this.listView.Size = new System.Drawing.Size(284, 312);
             this.listView.SmallImageList = this.imagePingState;
-            this.listView.TabIndex = 6;
             this.listView.UseCompatibleStateImageBehavior = false;
             this.listView.View = System.Windows.Forms.View.Details;
             this.listView.ItemActivate += new System.EventHandler(this.listView_ItemActivate);
@@ -164,13 +148,11 @@
             // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "שם היעד";
-            this.columnHeader1.Width = 136;
+            resources.ApplyResources(this.columnHeader1, "columnHeader1");
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "כתובת היעד";
-            this.columnHeader2.Width = 141;
+            resources.ApplyResources(this.columnHeader2, "columnHeader2");
             // 
             // imagePingState
             // 
@@ -182,78 +164,53 @@
             // 
             // openFileDialog
             // 
-            this.openFileDialog.Filter = "Text | *.txt";
+            resources.ApplyResources(this.openFileDialog, "openFileDialog");
             this.openFileDialog.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog_FileOk);
             // 
             // saveFileDialog
             // 
-            this.saveFileDialog.Filter = "Text | *.txt";
+            resources.ApplyResources(this.saveFileDialog, "saveFileDialog");
             this.saveFileDialog.FileOk += new System.ComponentModel.CancelEventHandler(this.saveFileDialog_FileOk);
             // 
             // btnAdd
             // 
-            this.btnAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnAdd.Location = new System.Drawing.Point(221, 93);
+            resources.ApplyResources(this.btnAdd, "btnAdd");
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(75, 23);
-            this.btnAdd.TabIndex = 3;
-            this.btnAdd.Text = "הוסף";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // txtDestinationName
             // 
-            this.txtDestinationName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtDestinationName.Location = new System.Drawing.Point(196, 65);
+            resources.ApplyResources(this.txtDestinationName, "txtDestinationName");
             this.txtDestinationName.Name = "txtDestinationName";
-            this.txtDestinationName.Size = new System.Drawing.Size(100, 20);
-            this.txtDestinationName.TabIndex = 1;
             this.txtDestinationName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtDestinationName_KeyDown);
             // 
             // txtDestinationAddress
             // 
-            this.txtDestinationAddress.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtDestinationAddress.Location = new System.Drawing.Point(36, 65);
+            resources.ApplyResources(this.txtDestinationAddress, "txtDestinationAddress");
             this.txtDestinationAddress.Name = "txtDestinationAddress";
-            this.txtDestinationAddress.Size = new System.Drawing.Size(154, 20);
-            this.txtDestinationAddress.TabIndex = 2;
             this.txtDestinationAddress.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtDestinationAddress_KeyDown);
             // 
             // lblDestinationName
             // 
-            this.lblDestinationName.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblDestinationName.AutoSize = true;
-            this.lblDestinationName.Location = new System.Drawing.Point(247, 49);
+            resources.ApplyResources(this.lblDestinationName, "lblDestinationName");
             this.lblDestinationName.Name = "lblDestinationName";
-            this.lblDestinationName.Size = new System.Drawing.Size(52, 13);
-            this.lblDestinationName.TabIndex = 5;
-            this.lblDestinationName.Text = "שם היעד";
             // 
             // lblDestinationAddress
             // 
-            this.lblDestinationAddress.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblDestinationAddress.AutoSize = true;
-            this.lblDestinationAddress.Location = new System.Drawing.Point(63, 49);
+            resources.ApplyResources(this.lblDestinationAddress, "lblDestinationAddress");
             this.lblDestinationAddress.Name = "lblDestinationAddress";
-            this.lblDestinationAddress.Size = new System.Drawing.Size(130, 13);
-            this.lblDestinationAddress.TabIndex = 6;
-            this.lblDestinationAddress.Text = "כתובת היעד או שם DNS";
             // 
             // btnRemove
             // 
-            this.btnRemove.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnRemove.Location = new System.Drawing.Point(131, 93);
+            resources.ApplyResources(this.btnRemove, "btnRemove");
             this.btnRemove.Name = "btnRemove";
-            this.btnRemove.Size = new System.Drawing.Size(75, 23);
-            this.btnRemove.TabIndex = 4;
-            this.btnRemove.Text = "הסר";
             this.btnRemove.UseVisualStyleBackColor = true;
             this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // numericFontSize
             // 
-            this.numericFontSize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.numericFontSize.Location = new System.Drawing.Point(14, 108);
+            resources.ApplyResources(this.numericFontSize, "numericFontSize");
             this.numericFontSize.Maximum = new decimal(new int[] {
             40,
             0,
@@ -265,8 +222,6 @@
             0,
             0});
             this.numericFontSize.Name = "numericFontSize";
-            this.numericFontSize.Size = new System.Drawing.Size(56, 20);
-            this.numericFontSize.TabIndex = 5;
             this.numericFontSize.Value = new decimal(new int[] {
             9,
             0,
@@ -276,13 +231,8 @@
             // 
             // lblFontSize
             // 
-            this.lblFontSize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblFontSize.AutoSize = true;
-            this.lblFontSize.Location = new System.Drawing.Point(14, 92);
+            resources.ApplyResources(this.lblFontSize, "lblFontSize");
             this.lblFontSize.Name = "lblFontSize";
-            this.lblFontSize.Size = new System.Drawing.Size(59, 13);
-            this.lblFontSize.TabIndex = 9;
-            this.lblFontSize.Text = "גודל פונט";
             // 
             // timerRefresh
             // 
@@ -292,6 +242,7 @@
             // 
             // menuStopPing
             // 
+            resources.ApplyResources(this.menuStopPing, "menuStopPing");
             this.menuStopPing.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuStopPing_Stop,
             this.menuStopPing_Edit,
@@ -304,99 +255,91 @@
             this.menuStopPing_Telnet,
             this.menuStopPing_SSH});
             this.menuStopPing.Name = "menuStopPing";
-            this.menuStopPing.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.menuStopPing.Size = new System.Drawing.Size(167, 230);
             // 
             // menuStopPing_Stop
             // 
+            resources.ApplyResources(this.menuStopPing_Stop, "menuStopPing_Stop");
             this.menuStopPing_Stop.Name = "menuStopPing_Stop";
-            this.menuStopPing_Stop.Size = new System.Drawing.Size(166, 22);
-            this.menuStopPing_Stop.Text = "עצור";
             this.menuStopPing_Stop.Click += new System.EventHandler(this.menuStopPing_Stop_Click);
             // 
             // menuStopPing_Edit
             // 
+            resources.ApplyResources(this.menuStopPing_Edit, "menuStopPing_Edit");
             this.menuStopPing_Edit.Name = "menuStopPing_Edit";
-            this.menuStopPing_Edit.Size = new System.Drawing.Size(166, 22);
-            this.menuStopPing_Edit.Text = "ערוך";
             this.menuStopPing_Edit.Click += new System.EventHandler(this.menuStopPing_Edit_Click);
             // 
             // menuStopPing_Remove
             // 
+            resources.ApplyResources(this.menuStopPing_Remove, "menuStopPing_Remove");
             this.menuStopPing_Remove.Name = "menuStopPing_Remove";
-            this.menuStopPing_Remove.Size = new System.Drawing.Size(166, 22);
-            this.menuStopPing_Remove.Text = "הסר";
             this.menuStopPing_Remove.Click += new System.EventHandler(this.menuStopPing_Remove_Click);
             // 
             // menuStopPing_Stats
             // 
+            resources.ApplyResources(this.menuStopPing_Stats, "menuStopPing_Stats");
             this.menuStopPing_Stats.Name = "menuStopPing_Stats";
-            this.menuStopPing_Stats.Size = new System.Drawing.Size(166, 22);
-            this.menuStopPing_Stats.Text = "הצג סטטיסטיקה";
             this.menuStopPing_Stats.Click += new System.EventHandler(this.menuStopPing_Stats_Click);
+            // 
+            // menuStopPing_Rapid
+            // 
+            resources.ApplyResources(this.menuStopPing_Rapid, "menuStopPing_Rapid");
+            this.menuStopPing_Rapid.Name = "menuStopPing_Rapid";
+            this.menuStopPing_Rapid.Click += new System.EventHandler(this.menuStopPing_Rapid_Click);
             // 
             // toolStripSeparator1
             // 
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(163, 6);
             // 
             // menuStopPing_VNC
             // 
+            resources.ApplyResources(this.menuStopPing_VNC, "menuStopPing_VNC");
             this.menuStopPing_VNC.Name = "menuStopPing_VNC";
-            this.menuStopPing_VNC.Size = new System.Drawing.Size(166, 22);
-            this.menuStopPing_VNC.Text = "Ultra VNC";
             this.menuStopPing_VNC.Click += new System.EventHandler(this.menuStopPing_VNC_Click);
             // 
             // menuStopPing_RemoteDesktop
             // 
+            resources.ApplyResources(this.menuStopPing_RemoteDesktop, "menuStopPing_RemoteDesktop");
             this.menuStopPing_RemoteDesktop.Name = "menuStopPing_RemoteDesktop";
-            this.menuStopPing_RemoteDesktop.Size = new System.Drawing.Size(166, 22);
-            this.menuStopPing_RemoteDesktop.Text = "Remote Desktop";
             this.menuStopPing_RemoteDesktop.Click += new System.EventHandler(this.menuStopPing_RemoteDesktop_Click);
             // 
             // menuStopPing_Telnet
             // 
+            resources.ApplyResources(this.menuStopPing_Telnet, "menuStopPing_Telnet");
             this.menuStopPing_Telnet.Name = "menuStopPing_Telnet";
-            this.menuStopPing_Telnet.Size = new System.Drawing.Size(166, 22);
-            this.menuStopPing_Telnet.Text = "Telnet";
             this.menuStopPing_Telnet.Click += new System.EventHandler(this.menuStopPing_Telnet_Click);
             // 
             // menuStopPing_SSH
             // 
+            resources.ApplyResources(this.menuStopPing_SSH, "menuStopPing_SSH");
             this.menuStopPing_SSH.Name = "menuStopPing_SSH";
-            this.menuStopPing_SSH.Size = new System.Drawing.Size(166, 22);
-            this.menuStopPing_SSH.Text = "SSH";
             this.menuStopPing_SSH.Click += new System.EventHandler(this.menuStopPing_SSH_Click);
             // 
             // menuResumePing
             // 
+            resources.ApplyResources(this.menuResumePing, "menuResumePing");
             this.menuResumePing.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuResumePing_Start,
             this.menuResumePing_Edit,
             this.menuResumePing_Remove});
             this.menuResumePing.Name = "menuResumePing";
-            this.menuResumePing.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.menuResumePing.Size = new System.Drawing.Size(108, 70);
             // 
             // menuResumePing_Start
             // 
+            resources.ApplyResources(this.menuResumePing_Start, "menuResumePing_Start");
             this.menuResumePing_Start.Name = "menuResumePing_Start";
-            this.menuResumePing_Start.Size = new System.Drawing.Size(107, 22);
-            this.menuResumePing_Start.Text = "התחל";
             this.menuResumePing_Start.Click += new System.EventHandler(this.menuResumePing_Start_Click);
             // 
             // menuResumePing_Edit
             // 
+            resources.ApplyResources(this.menuResumePing_Edit, "menuResumePing_Edit");
             this.menuResumePing_Edit.Name = "menuResumePing_Edit";
-            this.menuResumePing_Edit.Size = new System.Drawing.Size(107, 22);
-            this.menuResumePing_Edit.Text = "ערוך";
             this.menuResumePing_Edit.Click += new System.EventHandler(this.menuResumePing_Edit_Click);
             // 
             // menuResumePing_Remove
             // 
+            resources.ApplyResources(this.menuResumePing_Remove, "menuResumePing_Remove");
             this.menuResumePing_Remove.Name = "menuResumePing_Remove";
-            this.menuResumePing_Remove.Size = new System.Drawing.Size(107, 22);
-            this.menuResumePing_Remove.Text = "הסר";
             this.menuResumePing_Remove.Click += new System.EventHandler(this.menuResumePing_Remove_Click);
             // 
             // imageListIcons
@@ -409,50 +352,33 @@
             // 
             // statusStrip1
             // 
+            resources.ApplyResources(this.statusStrip1, "statusStrip1");
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lblIPAddressTitle,
             this.lblIPv4Address,
             this.toolStripDropDownButton1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 446);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.statusStrip1.Size = new System.Drawing.Size(309, 22);
-            this.statusStrip1.TabIndex = 10;
             // 
             // lblIPAddressTitle
             // 
+            resources.ApplyResources(this.lblIPAddressTitle, "lblIPAddressTitle");
             this.lblIPAddressTitle.Name = "lblIPAddressTitle";
-            this.lblIPAddressTitle.Size = new System.Drawing.Size(113, 17);
-            this.lblIPAddressTitle.Text = "Local IPv4 Address:";
             // 
             // lblIPv4Address
             // 
+            resources.ApplyResources(this.lblIPv4Address, "lblIPv4Address");
             this.lblIPv4Address.Name = "lblIPv4Address";
-            this.lblIPv4Address.Size = new System.Drawing.Size(47, 17);
-            this.lblIPv4Address.Text = "0.0.0.0";
             // 
             // toolStripDropDownButton1
             // 
+            resources.ApplyResources(this.toolStripDropDownButton1, "toolStripDropDownButton1");
             this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton1.Image")));
-            this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
-            this.toolStripDropDownButton1.Size = new System.Drawing.Size(29, 20);
-            this.toolStripDropDownButton1.Text = "All IP Addresses";
-            this.toolStripDropDownButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            // 
-            // menuStopPing_Rapid
-            // 
-            this.menuStopPing_Rapid.Name = "menuStopPing_Rapid";
-            this.menuStopPing_Rapid.Size = new System.Drawing.Size(166, 22);
-            this.menuStopPing_Rapid.Text = "Rapid...";
-            this.menuStopPing_Rapid.Click += new System.EventHandler(this.menuStopPing_Rapid_Click);
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(309, 468);
             this.Controls.Add(this.lblFontSize);
             this.Controls.Add(this.numericFontSize);
             this.Controls.Add(this.btnRemove);
@@ -466,9 +392,6 @@
             this.Controls.Add(this.statusStrip1);
             this.MainMenuStrip = this.menuStrip;
             this.Name = "FrmMain";
-            this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Pinger";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.Resize += new System.EventHandler(this.frmMain_Resize);

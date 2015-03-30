@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSettings));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -54,112 +55,63 @@
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(91, 3);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label1.Size = new System.Drawing.Size(27, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "TTL";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(26, 27);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label2.Size = new System.Drawing.Size(92, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Buffer Size [bytes]";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(16, 55);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label3.Size = new System.Drawing.Size(102, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Don\'t Fragment Flag";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(27, 81);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label4.Size = new System.Drawing.Size(91, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Timout Delay [ms]";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(30, 107);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label5.Size = new System.Drawing.Size(88, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Ping Interval [ms]";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(35, 133);
+            resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.label6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label6.Size = new System.Drawing.Size(83, 13);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Stability Counter";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(35, 159);
+            resources.ApplyResources(this.label7, "label7");
             this.label7.Name = "label7";
-            this.label7.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label7.Size = new System.Drawing.Size(83, 13);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "History Capacity";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // numericTTL
             // 
-            this.numericTTL.Location = new System.Drawing.Point(129, 3);
+            resources.ApplyResources(this.numericTTL, "numericTTL");
             this.numericTTL.Maximum = new decimal(new int[] {
             255,
             0,
             0,
             0});
             this.numericTTL.Name = "numericTTL";
-            this.numericTTL.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.numericTTL.Size = new System.Drawing.Size(69, 20);
-            this.numericTTL.TabIndex = 1;
             this.numericTTL.Value = new decimal(new int[] {
             128,
             0,
             0,
-            0});            
+            0});
             // 
             // checkBoxDontFragment
             // 
-            this.checkBoxDontFragment.AutoSize = true;
-            this.checkBoxDontFragment.Location = new System.Drawing.Point(129, 54);
+            resources.ApplyResources(this.checkBoxDontFragment, "checkBoxDontFragment");
             this.checkBoxDontFragment.Name = "checkBoxDontFragment";
-            this.checkBoxDontFragment.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.checkBoxDontFragment.Size = new System.Drawing.Size(15, 14);
-            this.checkBoxDontFragment.TabIndex = 3;
             this.checkBoxDontFragment.UseVisualStyleBackColor = true;
             // 
             // numericTimeout
             // 
-            this.numericTimeout.Location = new System.Drawing.Point(129, 79);
+            resources.ApplyResources(this.numericTimeout, "numericTimeout");
             this.numericTimeout.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -171,9 +123,6 @@
             0,
             0});
             this.numericTimeout.Name = "numericTimeout";
-            this.numericTimeout.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.numericTimeout.Size = new System.Drawing.Size(69, 20);
-            this.numericTimeout.TabIndex = 4;
             this.numericTimeout.Value = new decimal(new int[] {
             2000,
             0,
@@ -182,7 +131,7 @@
             // 
             // numericPingInterval
             // 
-            this.numericPingInterval.Location = new System.Drawing.Point(129, 105);
+            resources.ApplyResources(this.numericPingInterval, "numericPingInterval");
             this.numericPingInterval.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -194,9 +143,6 @@
             0,
             0});
             this.numericPingInterval.Name = "numericPingInterval";
-            this.numericPingInterval.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.numericPingInterval.Size = new System.Drawing.Size(69, 20);
-            this.numericPingInterval.TabIndex = 5;
             this.numericPingInterval.Value = new decimal(new int[] {
             2000,
             0,
@@ -205,20 +151,17 @@
             // 
             // numericMsgCount
             // 
-            this.numericMsgCount.Location = new System.Drawing.Point(129, 131);
+            resources.ApplyResources(this.numericMsgCount, "numericMsgCount");
             this.numericMsgCount.Maximum = new decimal(new int[] {
             100000,
             0,
             0,
             0});
             this.numericMsgCount.Name = "numericMsgCount";
-            this.numericMsgCount.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.numericMsgCount.Size = new System.Drawing.Size(69, 20);
-            this.numericMsgCount.TabIndex = 6;
             // 
             // numericHistoryCapacity
             // 
-            this.numericHistoryCapacity.Location = new System.Drawing.Point(129, 157);
+            resources.ApplyResources(this.numericHistoryCapacity, "numericHistoryCapacity");
             this.numericHistoryCapacity.Maximum = new decimal(new int[] {
             100000,
             0,
@@ -230,9 +173,6 @@
             0,
             0});
             this.numericHistoryCapacity.Name = "numericHistoryCapacity";
-            this.numericHistoryCapacity.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.numericHistoryCapacity.Size = new System.Drawing.Size(69, 20);
-            this.numericHistoryCapacity.TabIndex = 7;
             this.numericHistoryCapacity.Value = new decimal(new int[] {
             100,
             0,
@@ -241,27 +181,21 @@
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(113, 188);
+            resources.ApplyResources(this.btnOK, "btnOK");
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(75, 23);
-            this.btnOK.TabIndex = 8;
-            this.btnOK.Text = "אישור";
             this.btnOK.UseVisualStyleBackColor = true;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // btnCancle
             // 
-            this.btnCancle.Location = new System.Drawing.Point(18, 188);
+            resources.ApplyResources(this.btnCancle, "btnCancle");
             this.btnCancle.Name = "btnCancle";
-            this.btnCancle.Size = new System.Drawing.Size(75, 23);
-            this.btnCancle.TabIndex = 9;
-            this.btnCancle.Text = "ביטול";
             this.btnCancle.UseVisualStyleBackColor = true;
             this.btnCancle.Click += new System.EventHandler(this.btnCancle_Click);
             // 
             // numericBufferSize
             // 
-            this.numericBufferSize.Location = new System.Drawing.Point(129, 27);
+            resources.ApplyResources(this.numericBufferSize, "numericBufferSize");
             this.numericBufferSize.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -273,20 +207,16 @@
             0,
             0});
             this.numericBufferSize.Name = "numericBufferSize";
-            this.numericBufferSize.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.numericBufferSize.Size = new System.Drawing.Size(69, 20);
-            this.numericBufferSize.TabIndex = 2;
             this.numericBufferSize.Value = new decimal(new int[] {
             32,
             0,
             0,
             0});
             // 
-            // frmSettings
+            // FrmSettings
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(206, 214);
             this.Controls.Add(this.numericBufferSize);
             this.Controls.Add(this.btnCancle);
             this.Controls.Add(this.btnOK);
@@ -304,9 +234,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.MaximizeBox = false;
-            this.Name = "frmSettings";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "הגדרות";
+            this.Name = "FrmSettings";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmSettings_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.numericTTL)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericTimeout)).EndInit();

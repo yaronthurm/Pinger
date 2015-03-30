@@ -128,14 +128,26 @@
     <Compile Include="Code\Program.cs" />
     <Compile Include="Code\StringExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Code\FrmAbout.en.resx">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Code\FrmAbout.resx">
       <DependentUpon>FrmAbout.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Code\FrmAutoInsert.resx">
       <DependentUpon>FrmAutoInsert.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Code\FrmEditItem.en.resx">
+      <DependentUpon>FrmEditItem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Code\FrmEditItem.resx">
       <DependentUpon>FrmEditItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\FrmMain.en.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\FrmMain.he.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Code\FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
@@ -143,11 +155,23 @@
     <EmbeddedResource Include="Code\FrmPingLog.resx">
       <DependentUpon>FrmPingLog.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Code\FrmRapid.en.resx">
+      <DependentUpon>FrmRapid.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Code\FrmRapid.resx">
       <DependentUpon>FrmRapid.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Code\FrmSettings.en.resx">
+      <DependentUpon>FrmSettings.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Code\FrmSettings.resx">
       <DependentUpon>FrmSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\FrmStatistics.en.resx">
+      <DependentUpon>FrmStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Code\FrmStatistics.he.resx">
+      <DependentUpon>FrmStatistics.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Code\FrmStatistics.resx">
       <DependentUpon>FrmStatistics.cs</DependentUpon>
