@@ -67,7 +67,7 @@ namespace PingTester
                 return "Stats: N/A";
 
             var ret = string.Format(
-                "Stats: Avg: {0}, Max: {1}, Min: {2}",
+                "Stats: Avg: {0:0.00} [ms], Max: {1} [ms], Min: {2} [ms]",
                 _roundTrips.Average(),
                 _roundTrips.Max(),
                 _roundTrips.Min());
