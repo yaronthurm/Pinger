@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace PingTester
@@ -53,9 +54,25 @@ namespace PingTester
                 else
                     this._currentStateCounter++;
 
-                if (roundTrip != null)
+                if (roundTrip != null) {
                     _roundTrips.Add(roundTrip.Value);
+                    this.lblStats.Text = this.GetStatsText();
+                }
             }
+        }
+
+        private string GetStatsText()
+        {
+            if (_roundTrips.Count == 0)
+                return "Stats: N/A";
+
+            var ret = string.Format(
+                "Stats: Avg: {0}, Max: {1}, Min: {2}",
+                _roundTrips.Average(),
+                _roundTrips.Max(),
+                _roundTrips.Min());
+
+            return ret;
         }
         
         private void SetNewState(PingTester.State newState)
