@@ -118,22 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="btnClose.Text" xml:space="preserve">
-    <value>Close</value>
+    <value>סגור</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lblVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>121, 17</value>
+    <value>71, 17</value>
   </data>
   <data name="lblVersionTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>73, 17</value>
+    <value>113, 17</value>
   </data>
   <data name="lblVersionTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 13</value>
+    <value>39, 13</value>
   </data>
   <data name="lblVersionTitle.Text" xml:space="preserve">
-    <value>Version</value>
+    <value>גירסא</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>About</value>
+    <value>אודות</value>
   </data>
 </root>

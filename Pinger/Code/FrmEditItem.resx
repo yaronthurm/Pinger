@@ -139,19 +139,19 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lblDestinationAddress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>30, 29</value>
+    <value>43, 29</value>
   </data>
-  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="txtDestinationName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
   </data>
   <data name="&gt;&gt;btnOK.Name" xml:space="preserve">
     <value>btnOK</value>
   </data>
   <data name="lblDestinationName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 13</value>
+    <value>69, 13</value>
   </data>
   <data name="lblDestinationName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 29</value>
+    <value>197, 29</value>
   </data>
   <data name="txtDestinationName.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -159,20 +159,20 @@
   <data name="&gt;&gt;txtDestinationAddress.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;lblEditMultipleItems.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;lblDestinationAddress.Name" xml:space="preserve">
+    <value>lblDestinationAddress</value>
   </data>
   <data name="checkAddress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 71</value>
+    <value>53, 71</value>
   </data>
   <data name="btnCancle.Location" type="System.Drawing.Point, System.Drawing">
     <value>63, 98</value>
   </data>
   <data name="lblEditMultipleItems.Location" type="System.Drawing.Point, System.Drawing">
-    <value>152, 9</value>
+    <value>160, 9</value>
   </data>
   <data name="lblDestinationAddress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 13</value>
+    <value>117, 13</value>
   </data>
   <data name="&gt;&gt;txtDestinationAddress.ZOrder" xml:space="preserve">
     <value>7</value>
@@ -195,9 +195,6 @@
   <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="&gt;&gt;btnCancle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
@@ -207,14 +204,17 @@
   <data name="&gt;&gt;txtDestinationAddress.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="txtDestinationName.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
-  </data>
   <data name="&gt;&gt;btnCancle.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="&gt;&gt;lblDestinationName.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;checkAddress.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="lblDestinationAddress.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -225,8 +225,11 @@
   <data name="txtDestinationAddress.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
   </data>
+  <data name="lblEditMultipleItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
+  </data>
   <data name="checkName.Text" xml:space="preserve">
-    <value>שנה שם</value>
+    <value>Change Name</value>
   </data>
   <data name="txtDestinationAddress.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -234,38 +237,38 @@
   <data name="checkAddress.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
-  <data name="&gt;&gt;checkName.Name" xml:space="preserve">
-    <value>checkName</value>
-  </data>
   <data name="lblDestinationName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="checkAddress.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="checkName.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="&gt;&gt;lblDestinationAddress.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="lblEditMultipleItems.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
   </data>
   <data name="txtDestinationName.Location" type="System.Drawing.Point, System.Drawing">
     <value>163, 45</value>
   </data>
   <data name="lblDestinationName.Text" xml:space="preserve">
-    <value>שם היעד</value>
+    <value>Target Name</value>
   </data>
   <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
     <value>163, 98</value>
   </data>
-  <data name="lblEditMultipleItems.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 13</value>
+  <data name="&gt;&gt;btnOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkName.Name" xml:space="preserve">
+    <value>checkName</value>
   </data>
   <data name="&gt;&gt;checkName.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="checkName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>197, 71</value>
+    <value>169, 71</value>
   </data>
   <data name="txtDestinationName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -279,12 +282,6 @@
   <data name="&gt;&gt;lblEditMultipleItems.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="txtDestinationName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="&gt;&gt;lblDestinationName.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
   <data name="&gt;&gt;lblDestinationAddress.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -292,10 +289,13 @@
     <value>154, 20</value>
   </data>
   <data name="checkAddress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 17</value>
+    <value>104, 17</value>
   </data>
   <data name="btnCancle.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
+  </data>
+  <data name="checkName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 17</value>
   </data>
   <data name="lblDestinationAddress.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -304,7 +304,7 @@
     <value>5</value>
   </data>
   <data name="btnCancle.Text" xml:space="preserve">
-    <value>ביטול</value>
+    <value>Cancel</value>
   </data>
   <data name="&gt;&gt;lblEditMultipleItems.Name" xml:space="preserve">
     <value>lblEditMultipleItems</value>
@@ -312,17 +312,20 @@
   <data name="lblDestinationAddress.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;txtDestinationName.Name" xml:space="preserve">
     <value>txtDestinationName</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FrmEditItem</value>
+  <data name="&gt;&gt;btnCancle.Name" xml:space="preserve">
+    <value>btnCancle</value>
   </data>
   <data name="lblDestinationName.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
   <data name="btnOK.Text" xml:space="preserve">
-    <value>אישור</value>
+    <value>OK</value>
   </data>
   <data name="lblDestinationName.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -330,26 +333,23 @@
   <data name="&gt;&gt;txtDestinationAddress.Name" xml:space="preserve">
     <value>txtDestinationAddress</value>
   </data>
-  <data name="checkName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 17</value>
+  <data name="&gt;&gt;lblDestinationName.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;txtDestinationName.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="&gt;&gt;checkAddress.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="checkName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;btnCancle.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="lblEditMultipleItems.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
   </data>
   <data name="&gt;&gt;lblDestinationName.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="checkAddress.Text" xml:space="preserve">
-    <value>שנה כתובת</value>
+    <value>Change Address</value>
   </data>
   <data name="checkName.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>Yes</value>
@@ -358,7 +358,7 @@
     <value>$this</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>עריכה</value>
+    <value>Edit</value>
   </data>
   <data name="&gt;&gt;txtDestinationName.Parent" xml:space="preserve">
     <value>$this</value>
@@ -375,23 +375,23 @@
   <data name="txtDestinationAddress.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmEditItem</value>
   </data>
   <data name="lblDestinationAddress.Text" xml:space="preserve">
-    <value>כתובת היעד או שם DNS</value>
+    <value>Target Address or DNS</value>
   </data>
   <data name="lblEditMultipleItems.Text" xml:space="preserve">
-    <value>עריכת ערכים מרובים</value>
+    <value>Editing Multiple Items</value>
   </data>
-  <data name="&gt;&gt;checkName.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="txtDestinationName.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
   </data>
-  <data name="&gt;&gt;btnCancle.Name" xml:space="preserve">
-    <value>btnCancle</value>
+  <data name="&gt;&gt;btnCancle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblDestinationAddress.Name" xml:space="preserve">
-    <value>lblDestinationAddress</value>
+  <data name="&gt;&gt;lblEditMultipleItems.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

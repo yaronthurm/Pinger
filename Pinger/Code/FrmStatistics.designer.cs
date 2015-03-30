@@ -50,8 +50,8 @@
             // 
             // listView
             // 
-            this.listView.AllowDrop = true;
             resources.ApplyResources(this.listView, "listView");
+            this.listView.AllowDrop = true;
             this.listView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2});
