@@ -26,6 +26,10 @@ namespace PingTester
         {            
             try
             {
+                var cultur = System.Configuration.ConfigurationManager.AppSettings["Globalization.CultureInfo"];
+                if (cultur == "he" || cultur == "en")
+                    System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(cultur);
+                
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
 
