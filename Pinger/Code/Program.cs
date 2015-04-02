@@ -27,7 +27,7 @@ namespace PingTester
             try
             {
                 var culture = System.Configuration.ConfigurationManager.AppSettings["Globalization.CultureInfo"];
-                if (culture == "he" || culture == "en")
+                if (!string.IsNullOrWhiteSpace(culture))
                     System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(culture);
                 
                 Application.EnableVisualStyles();
