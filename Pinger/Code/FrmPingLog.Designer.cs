@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPingLog));
             this.listBox = new System.Windows.Forms.ListBox();
             this.checkAutoScroll = new System.Windows.Forms.CheckBox();
             this.timerUpdateLog = new System.Windows.Forms.Timer(this.components);
@@ -36,26 +37,17 @@
             // 
             // listBox
             // 
-            this.listBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            resources.ApplyResources(this.listBox, "listBox");
             this.listBox.FormattingEnabled = true;
-            this.listBox.HorizontalScrollbar = true;
-            this.listBox.Location = new System.Drawing.Point(0, 0);
             this.listBox.Name = "listBox";
-            this.listBox.Size = new System.Drawing.Size(537, 147);
-            this.listBox.TabIndex = 0;
             // 
             // checkAutoScroll
             // 
-            this.checkAutoScroll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkAutoScroll.AutoSize = true;
+            resources.ApplyResources(this.checkAutoScroll, "checkAutoScroll");
             this.checkAutoScroll.BackColor = System.Drawing.Color.White;
             this.checkAutoScroll.Checked = true;
             this.checkAutoScroll.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkAutoScroll.Location = new System.Drawing.Point(443, 1);
             this.checkAutoScroll.Name = "checkAutoScroll";
-            this.checkAutoScroll.Size = new System.Drawing.Size(75, 17);
-            this.checkAutoScroll.TabIndex = 1;
-            this.checkAutoScroll.Text = "Auto scroll";
             this.checkAutoScroll.UseVisualStyleBackColor = false;
             // 
             // timerUpdateLog
@@ -63,17 +55,15 @@
             this.timerUpdateLog.Enabled = true;
             this.timerUpdateLog.Tick += new System.EventHandler(this.timerUpdateLog_Tick);
             // 
-            // frmPingLog
+            // FrmPingLog
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(537, 148);
             this.Controls.Add(this.checkAutoScroll);
             this.Controls.Add(this.listBox);
             this.MinimizeBox = false;
-            this.Name = "frmPingLog";
+            this.Name = "FrmPingLog";
             this.ShowInTaskbar = false;
-            this.Text = "frmPingLog";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmPingLog_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();

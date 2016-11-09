@@ -150,6 +150,9 @@
     <EmbeddedResource Include="Code\FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Code\FrmPingLog.he.resx">
+      <DependentUpon>FrmPingLog.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Code\FrmPingLog.resx">
       <DependentUpon>FrmPingLog.cs</DependentUpon>
     </EmbeddedResource>
