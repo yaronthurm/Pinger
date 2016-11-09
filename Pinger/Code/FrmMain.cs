@@ -218,6 +218,7 @@ namespace PingTester
         {
             // Save items list to the selected file
             this.SaveToFile(this.saveFileDialog.FileName);
+            this.UpdateLoadedFile(this.saveFileDialog.FileName);
         }
 
         private void openFileDialog_FileOk(object sender, CancelEventArgs e)
@@ -233,10 +234,7 @@ namespace PingTester
 
             // Read from the file selected
             this.ReadFromFile(this.openFileDialog.FileName);
-
-            this.txtFileName.Text = Path.GetFileName(this.openFileDialog.FileName);
-            this.txtFileName.SelectionStart = this.txtFileName.Text.Length - 1;
-            this.menuSave.Enabled = true;
+            this.UpdateLoadedFile(this.openFileDialog.FileName);
         }
         
         #endregion
@@ -513,9 +511,15 @@ namespace PingTester
 
         #region Menu click events handlers
         
-        private void menuSave_Click(object sender, EventArgs e)
+        private void menuSaveAs_Click(object sender, EventArgs e)
         {
             this.saveFileDialog.ShowDialog();
+        }
+        private void menuSave_Click(object sender, EventArgs e)
+        {
+            // Save items list to the selected file
+            var filename = (string)this.txtFileName.Tag;
+            this.SaveToFile(filename);
         }
         private void menuOpen_Click(object sender, EventArgs e)
         {
@@ -1306,6 +1310,15 @@ namespace PingTester
             file.Close();
         }
 
+
+        private void UpdateLoadedFile(string fileName)
+        {
+            this.txtFileName.Tag = fileName;
+            var file = new FileInfo(fileName);
+            this.txtFileName.Text = Path.Combine(file.Directory.Name, file.Name);
+            this.txtFileName.SelectionStart = this.txtFileName.Text.Length - 1;
+            this.menuSave.Enabled = true;
+        }
         #endregion
     }
 }

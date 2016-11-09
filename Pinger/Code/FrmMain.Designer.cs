@@ -111,12 +111,13 @@
             // 
             resources.ApplyResources(this.menuSave, "menuSave");
             this.menuSave.Name = "menuSave";
+            this.menuSave.Click += new System.EventHandler(this.menuSave_Click);
             // 
             // menuSaveAS
             // 
             this.menuSaveAS.Name = "menuSaveAS";
             resources.ApplyResources(this.menuSaveAS, "menuSaveAS");
-            this.menuSaveAS.Click += new System.EventHandler(this.menuSave_Click);
+            this.menuSaveAS.Click += new System.EventHandler(this.menuSaveAs_Click);
             // 
             // menuSettings
             // 
