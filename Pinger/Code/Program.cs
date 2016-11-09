@@ -10,11 +10,8 @@ namespace PingTester
          * issue 1: add support to new file format (xml)
          * issue 2: add  full support for telnet, ssh, remote desktop, vnc (icons and prebuilt passwords)
          * issue 3: add log file to ping responses and state changes
-         * issue 4: add indication to name of opend file
-         * issue 5: add status bar indication how much online/offline
-         * 
-         * issue 6: add support for rapid ping (lots of users sending ping at once)
-         * issue 7: add response time to stats (min, max, avg)
+         * issue 4: add status bar indication how much online/offline
+
          */
         public const string LastPingerFileName = "pinger_history.txt";
 
