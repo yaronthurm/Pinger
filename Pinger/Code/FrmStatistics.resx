@@ -131,18 +131,15 @@
   <data name="&gt;&gt;lblFailed.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="lblStats.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;btnResetStatistics.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblStats.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 101</value>
+  </data>
   <data name="lblFailed.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 46</value>
   </data>
-  <data name="lblStats.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 13</value>
+  <data name="listView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 117</value>
   </data>
   <data name="lblSuccessed.Text" xml:space="preserve">
     <value>label1</value>
@@ -156,9 +153,6 @@
   <data name="btnResetStatistics.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="listView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 117</value>
-  </data>
   <data name="lblFailed.Size" type="System.Drawing.Size, System.Drawing">
     <value>54, 19</value>
   </data>
@@ -168,8 +162,8 @@
   <data name="btnResetStatistics.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
-  <data name="lblFailed.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="&gt;&gt;btnResetStatistics.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="lblPercent.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 68</value>
@@ -186,8 +180,8 @@
   <data name="lblStats.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="lblStats.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 101</value>
+  <data name="&gt;&gt;lblStats.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="columnHeader2.Text" xml:space="preserve">
     <value>Number of Trials</value>
@@ -203,6 +197,9 @@
   </data>
   <data name="&gt;&gt;lblSuccessed.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lblStats.Text" xml:space="preserve">
     <value>Stats: N/A</value>
@@ -221,9 +218,6 @@
   </data>
   <data name="lblFailed.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="lblPercent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>27, 13</value>
   </data>
   <data name="&gt;&gt;lblSuccessed.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -249,6 +243,12 @@
   <data name="&gt;&gt;imagePingState.Type" xml:space="preserve">
     <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;lblPercent.Name" xml:space="preserve">
+    <value>lblPercent</value>
+  </data>
+  <data name="listView.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
   <data name="&gt;&gt;lblSuccessed.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -260,7 +260,7 @@
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAY
-        EAAAAk1TRnQBSQFMAgEBAwEAATQBAAE4AQABEAEAARABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAFA
+        EAAAAk1TRnQBSQFMAgEBAwEAATQBAAE8AQABEAEAARABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAFA
         AwABEAMAAQEBAAEgBgABEBIAA/0B/wP9Af8D/QH/AvsB/QH/AakBpgH3Af8BuAG1AfgB/wG7AbkB+AH/
         AbwBuQH4Af8BvAG5AfgB/wG7AbgB+AH/AbsBuAH4Af8BrgGrAfcB/wL8Af0B/wP9Af8D/QH/A/0B/xAA
         AwsBDwNBAXICWAFaAcACSAGAAesCKgGXAfUCVgFjAdgDTgGZAyQBNTAAAwYBCAM+AWsDFAEcVAAD/QH/
@@ -352,9 +352,6 @@
   <data name="&gt;&gt;timerUpdateView.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="lblSuccessed.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 21</value>
   </data>
@@ -376,6 +373,9 @@
   <data name="lblSuccessed.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 12pt, style=Bold</value>
   </data>
+  <data name="lblStats.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
   <data name="&gt;&gt;lblSuccessed.Name" xml:space="preserve">
     <value>lblSuccessed</value>
   </data>
@@ -388,8 +388,8 @@
   <data name="&gt;&gt;lblFailed.Name" xml:space="preserve">
     <value>lblFailed</value>
   </data>
-  <data name="&gt;&gt;btnResetStatistics.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="lblFailed.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="lblFailed.Text" xml:space="preserve">
     <value>label2</value>
@@ -400,14 +400,14 @@
   <data name="columnHeader2.Width" type="System.Int32, mscorlib">
     <value>106</value>
   </data>
-  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lblStats.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblPercent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 13</value>
   </data>
-  <data name="listView.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="lblStats.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="lblFailed.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 12pt, style=Bold</value>
@@ -418,14 +418,11 @@
   <data name="lblPercent.Text" xml:space="preserve">
     <value>N/A</value>
   </data>
-  <data name="&gt;&gt;lblPercent.Name" xml:space="preserve">
-    <value>lblPercent</value>
+  <data name="&gt;&gt;btnResetStatistics.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <metadata name="timerUpdateView.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>he</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
