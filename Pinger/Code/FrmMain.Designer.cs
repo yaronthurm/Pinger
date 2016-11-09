@@ -33,7 +33,7 @@
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.menuFile = new System.Windows.Forms.ToolStripMenuItem();
             this.menuOpen = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuSave = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuSaveAS = new System.Windows.Forms.ToolStripMenuItem();
             this.menuSettings = new System.Windows.Forms.ToolStripMenuItem();
             this.menuAutoInsert = new System.Windows.Forms.ToolStripMenuItem();
             this.menuAbout = new System.Windows.Forms.ToolStripMenuItem();
@@ -96,7 +96,7 @@
             resources.ApplyResources(this.menuFile, "menuFile");
             this.menuFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuOpen,
-            this.menuSave});
+            this.menuSaveAS});
             this.menuFile.Name = "menuFile";
             // 
             // menuOpen
@@ -105,11 +105,11 @@
             this.menuOpen.Name = "menuOpen";
             this.menuOpen.Click += new System.EventHandler(this.menuOpen_Click);
             // 
-            // menuSave
+            // menuSaveAS
             // 
-            resources.ApplyResources(this.menuSave, "menuSave");
-            this.menuSave.Name = "menuSave";
-            this.menuSave.Click += new System.EventHandler(this.menuSave_Click);
+            resources.ApplyResources(this.menuSaveAS, "menuSaveAS");
+            this.menuSaveAS.Name = "menuSaveAS";
+            this.menuSaveAS.Click += new System.EventHandler(this.menuSave_Click);
             // 
             // menuSettings
             // 
@@ -438,7 +438,7 @@
         private System.Windows.Forms.Label lblDestinationName;
         private System.Windows.Forms.Label lblDestinationAddress;
         private System.Windows.Forms.ToolStripMenuItem menuFile;
-        private System.Windows.Forms.ToolStripMenuItem menuSave;
+        private System.Windows.Forms.ToolStripMenuItem menuSaveAS;
         private System.Windows.Forms.ToolStripMenuItem menuOpen;
         private System.Windows.Forms.Button btnRemove;
         private System.Windows.Forms.ToolStripMenuItem menuSettings;
