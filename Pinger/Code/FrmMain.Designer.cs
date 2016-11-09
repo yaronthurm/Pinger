@@ -72,6 +72,8 @@
             this.lblIPAddressTitle = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblIPv4Address = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
+            this.lblFileName = new System.Windows.Forms.Label();
+            this.txtFileName = new System.Windows.Forms.TextBox();
             this.menuStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericFontSize)).BeginInit();
             this.menuStopPing.SuspendLayout();
@@ -375,10 +377,25 @@
             this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
             // 
+            // lblFileName
+            // 
+            resources.ApplyResources(this.lblFileName, "lblFileName");
+            this.lblFileName.Name = "lblFileName";
+            // 
+            // txtFileName
+            // 
+            resources.ApplyResources(this.txtFileName, "txtFileName");
+            this.txtFileName.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.txtFileName.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtFileName.Name = "txtFileName";
+            this.txtFileName.ReadOnly = true;
+            // 
             // FrmMain
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.txtFileName);
+            this.Controls.Add(this.lblFileName);
             this.Controls.Add(this.lblFontSize);
             this.Controls.Add(this.numericFontSize);
             this.Controls.Add(this.btnRemove);
@@ -451,6 +468,8 @@
         private System.Windows.Forms.ToolStripMenuItem menuStopPing_Telnet;
         private System.Windows.Forms.ToolStripMenuItem menuStopPing_SSH;
         private System.Windows.Forms.ToolStripMenuItem menuStopPing_Rapid;
+        private System.Windows.Forms.Label lblFileName;
+        private System.Windows.Forms.TextBox txtFileName;
     }
 }
 
