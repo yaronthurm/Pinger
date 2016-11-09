@@ -236,6 +236,7 @@ namespace PingTester
 
             this.txtFileName.Text = Path.GetFileName(this.openFileDialog.FileName);
             this.txtFileName.SelectionStart = this.txtFileName.Text.Length - 1;
+            this.menuSave.Enabled = true;
         }
         
         #endregion

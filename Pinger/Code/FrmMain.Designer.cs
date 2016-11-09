@@ -109,8 +109,8 @@
             // 
             // menuSave
             // 
-            this.menuSave.Name = "menuSave";
             resources.ApplyResources(this.menuSave, "menuSave");
+            this.menuSave.Name = "menuSave";
             // 
             // menuSaveAS
             // 
