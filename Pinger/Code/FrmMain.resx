@@ -117,434 +117,726 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lblFileName.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;timerRefresh.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
+  <metadata name="menuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>13, 4</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="menuFile.Text" xml:space="preserve">
-    <value>File</value>
-  </data>
-  <data name="lblFontSize.Text" xml:space="preserve">
-    <value>Font Size</value>
-  </data>
-  <data name="menuStopPing_Edit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 22</value>
-  </data>
-  <data name="&gt;&gt;lblDestinationName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblFileName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuSaveAS.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnRemove.Name" xml:space="preserve">
-    <value>btnRemove</value>
-  </data>
-  <data name="menuOpen.Text" xml:space="preserve">
-    <value>Open..</value>
-  </data>
-  <data name="&gt;&gt;lblDestinationName.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;menuStopPing_Telnet.Name" xml:space="preserve">
-    <value>menuStopPing_Telnet</value>
-  </data>
-  <data name="menuStopPing_Stats.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 22</value>
-  </data>
-  <data name="listView.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="menuStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lblDestinationAddress.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="toolStripDropDownButton1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>29, 20</value>
-  </data>
-  <data name="&gt;&gt;btnRemove.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lblIPv4Address.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 17</value>
-  </data>
-  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
-    <value>columnHeader1</value>
-  </data>
-  <data name="toolStripDropDownButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAAgNJREFUOE+lkutLk2EYxvePhJaHShFBUTEPiCieQOmDiEZgrEbpYGiCQxkqA80I
-        RUkUEZ0YRMS+DDI70MkTmzJnDc8iU8QT2mAEItnle90wHwTDyBduXnie5/rd133Q4ZKfAJqHFs9E08A8
-        zD1emDpmYXjqRlnTFIrMk8iuGkNaxWekGEaQrHecBfw+/vPXODw6hj9whN2fh/Bt/8LSRgA3cxr/DeBZ
-        9kvmTNMoHGNbIrYN+3Aj23IxgJkpds0doP3VstgmsNexhutZ9QrAms8T0zYzU5xXM46kcjsmvfvoeL2i
-        AeoUgA07T8yaaZuZKab1rzN74jgys1YB2O2gmBZzH49LODXrrJlnzEzxe9cOLH1ziMioVgCOiuIFX0CE
-        Q+/WYf+yieiCFrRp9tkwxnP7Kt5MbKGm6wfC000KwDlTXNLgEvHMkh+Db32o7fYivtQm1l9+3IBOp5P7
-        yjYPwlKNCsAluWudxgvtknb5t9oWcL/VLU2Mvd2JFq3uqs7vAtE/ceNayiMF4KiYMSjmY2O7B4Ua+NaD
-        YQGEJumRbvyG1IcfBHI12aAAXM8R57aIWTNrLLY4tfNPiCvpR1SeVeu6WWzHFD6THSDwFMDdpmUG62NJ
-        PKM4Or9ZxBxb8H8l7g5CEu8pAOfM3WanSeeS8CFHxW4zM2umbWamOCShXAH+/wNOANABIDUxWnDPAAAA
-        AElFTkSuQmCC
-</value>
-  </data>
-  <data name="numericFontSize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="&gt;&gt;numericFontSize.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblFileName.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+  <data name="menuStrip.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
-  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
-    <value>statusStrip1</value>
+  <data name="menuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 24</value>
   </data>
-  <data name="btnAdd.Text" xml:space="preserve">
-    <value>Add</value>
-  </data>
-  <data name="lblFontSize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 13</value>
-  </data>
-  <data name="menuResumePing_Remove.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 22</value>
-  </data>
-  <data name="&gt;&gt;lblFontSize.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="menuResumePing_Edit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 22</value>
-  </data>
-  <data name="&gt;&gt;lblDestinationAddress.Name" xml:space="preserve">
-    <value>lblDestinationAddress</value>
-  </data>
-  <data name="txtDestinationName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
-  </data>
-  <data name="lblFontSize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 103</value>
-  </data>
-  <data name="menuSave.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="menuOpen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 22</value>
-  </data>
-  <data name="&gt;&gt;btnRemove.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;menuSaveAS.Name" xml:space="preserve">
-    <value>menuSaveAS</value>
-  </data>
-  <data name="&gt;&gt;menuStopPing_Stop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Pinger</value>
-  </data>
-  <data name="txtDestinationName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>196, 76</value>
-  </data>
-  <data name="&gt;&gt;menuStopPing_Edit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblIPAddressTitle.Name" xml:space="preserve">
-    <value>lblIPAddressTitle</value>
-  </data>
-  <data name="menuStopPing_RemoteDesktop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 22</value>
-  </data>
-  <data name="lblFontSize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="lblFileName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 32</value>
-  </data>
-  <data name="menuStopPing_VNC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 22</value>
-  </data>
-  <data name="&gt;&gt;saveFileDialog.Name" xml:space="preserve">
-    <value>saveFileDialog</value>
-  </data>
-  <data name="menuSave.Text" xml:space="preserve">
-    <value>Save</value>
-  </data>
-  <data name="&gt;&gt;menuSettings.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStopPing_RemoteDesktop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="menuStrip.Text" xml:space="preserve">
     <value>menuStrip1</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="&gt;&gt;menuStrip.Name" xml:space="preserve">
+    <value>menuStrip</value>
   </data>
-  <data name="listView.RightToLeftLayout" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;menuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;menuStopPing_SSH.Name" xml:space="preserve">
-    <value>menuStopPing_SSH</value>
+  <data name="&gt;&gt;menuStrip.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="menuStopPing_Telnet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 22</value>
+  <data name="&gt;&gt;menuStrip.ZOrder" xml:space="preserve">
+    <value>13</value>
   </data>
-  <data name="txtDestinationAddress.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="menuFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
   </data>
-  <data name="menuResumePing_Remove.Text" xml:space="preserve">
-    <value>Remove</value>
+  <data name="menuFile.Text" xml:space="preserve">
+    <value>File</value>
   </data>
-  <data name="&gt;&gt;txtFileName.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="menuOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
   </data>
-  <data name="menuStopPing_Stop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 22</value>
+  <data name="menuOpen.Text" xml:space="preserve">
+    <value>Open..</value>
   </data>
-  <data name="lblDestinationAddress.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="menuSave.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
-  <data name="&gt;&gt;menuResumePing_Edit.Name" xml:space="preserve">
-    <value>menuResumePing_Edit</value>
+  <data name="menuSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
   </data>
-  <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
-    <value>221, 104</value>
+  <data name="menuSave.Text" xml:space="preserve">
+    <value>Save</value>
   </data>
-  <data name="&gt;&gt;txtDestinationName.Name" xml:space="preserve">
-    <value>txtDestinationName</value>
+  <data name="menuSaveAS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
   </data>
-  <data name="&gt;&gt;menuResumePing_Remove.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="menuSaveAS.Text" xml:space="preserve">
+    <value>Save as..</value>
   </data>
-  <data name="&gt;&gt;numericFontSize.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="menuSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="menuSettings.Text" xml:space="preserve">
+    <value>Settings..</value>
+  </data>
+  <data name="menuAutoInsert.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="menuAutoInsert.Text" xml:space="preserve">
+    <value>Auto Insert</value>
+  </data>
+  <data name="menuAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
   </data>
   <data name="menuAbout.Text" xml:space="preserve">
     <value>About</value>
   </data>
-  <data name="&gt;&gt;lblFileName.Name" xml:space="preserve">
-    <value>lblFileName</value>
+  <data name="listView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="menuResumePing_Start.Text" xml:space="preserve">
-    <value>Start</value>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>Target Name</value>
   </data>
-  <data name="&gt;&gt;btnAdd.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="menuResumePing.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 70</value>
-  </data>
-  <data name="&gt;&gt;menuStopPing_Rapid.Name" xml:space="preserve">
-    <value>menuStopPing_Rapid</value>
+  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
+    <value>136</value>
   </data>
   <data name="columnHeader2.Text" xml:space="preserve">
     <value>Target Address</value>
   </data>
-  <data name="menuStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="columnHeader2.Width" type="System.Int32, mscorlib">
+    <value>141</value>
   </data>
-  <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
+  <data name="listView.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 9pt</value>
+  </data>
+  <data name="listView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 148</value>
+  </data>
+  <data name="listView.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="listView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>284, 295</value>
+  </data>
+  <metadata name="imagePingState.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>243, 36</value>
+  </metadata>
+  <data name="imagePingState.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAM
+        EAAAAk1TRnQBSQFMAgEBAwEAAcABAAHAAQABEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABEAMAAQEBAAEgBgABEBIAA/0B/wP9Af8D/QH/AvsB/QH/AakBpgH3Af8BuAG1AfgB/wG7AbkB+AH/
+        AbwBuQH4Af8BvAG5AfgB/wG7AbgB+AH/AbsBuAH4Af8BrgGrAfcB/wL8Af0B/wP9Af8D/QH/A/0B/xAA
+        AwsBDwNBAXICWAFaAcACVwFrAesCOgGAAfUCWgFeAdgDTgGZAyQBNTAAAwYBCAM+AWsDFAEcVAAD/QH/
+        A/0B/wH7AfoB/QH/AaQBoAH3Af8C8AH8Af8C8wH8Af8C6gH8Af8B6gHpAfwB/wHqAekB/AH/AesB6gH8
+        Af8C9QH8Af8C7gH8Af8BpwGkAfcB/wL8Af0B/wP9Af8D/QH/DAACMAExAU0CVwFmAegCAAHhAf8CAAHv
+        Af8CAAHwAf8CAAHwAf8CAAHwAf8CAAHpAf8CAAG2Af4DUAGeAwgBCyQAAwIBAwM/AW0BTQGvAVcB/ANU
+        Aa4DCgEOUAAD/QH/AvoB/QH/AaMBnwH3Af8B8QHwAfwB/wHPAc0B+gH/ASMBGwHvAf8BOQExAfAB/wFQ
+        AUoB8gH/AVYBUAHyAf8BPgE3AfEB/wEmAR4B7wH/AdYB1AH6Af8B7wHuAfwB/wGoAaQB9wH/AvwB/QH/
+        A/0B/wgAAzgBXAIPAa0B/AIAAe8B/wIAAfAB/wIAAfAB/wIAAfAB/wIAAfAB/wIAAfAB/wIAAfAB/wIA
+        AfAB/wIAAeQB/wJXAVkBwgMHAQkfAAEBAy4BRwFPAX8BXQHzAW0B/wGIAf8BVwHAAWEB/gNIAYUDBAEG
+        TAAC+gH9Af8BowGfAfcB/wLxAfwB/wHPAc0B+gH/ASIBGgHvAf8BFQEMAe4B/wGlAaIB9wH/A/0B/wP9
+        Af8BrwGrAfgB/wEVAQwB7gH/ASYBHQHvAf8B1QHTAfoB/wLvAfwB/wGoAaQB9wH/AvwB/QH/BAADHwEt
+        AjcBjAH3AgAB8AH/AgEB8QH/AgcB8gH/AgoB8gH/AgoB8gH/AgcB8gH/AhcB8gH/AmkB9wH/AiMB8wH/
+        AgAB8AH/AgAB4wH/Ak4BTwGXHAADHQEpAVsBYQFbAeEBVQH9AWQB/wFSAfsBYQH/AUkB9wFYAf8BQQGN
+        AUMB+QM4AV0DAQECSAABqwGnAfcB/wHyAfEB/AH/Ac8BzQH6Af8BIgEaAe8B/wEVAQwB7gH/ARUBDAHu
+        Af8BxwHEAfkB/wP9Af8D/QH/AbwBugH5Af8BFQEMAe4B/wEVAQwB7gH/ASYBHgHvAf8B1QHTAfoB/wHw
+        Ae8B/AH/Aa4BqwH3Af8EAAJVAVcBtwIAAewB/wILAfIB/wITAfMB/wKZAfkB/wKLAfkB/wIiAfQB/wIX
+        AfMB/wK6AfsF/wL0Af4B/wIAAfEB/wIAAfAB/wIPAbYB/QMfASwUAAMPARQBWQFbAVkBxAFEAfABUgH/
+        AUgB8gFXAf8BbgHyAYgB/wFeAe0BawH/ATcB4wFGAf8BWQFmAVkB7AMnAToDAAEBRAABvwG9AfkB/wLz
+        AfwB/wEiARoB7wH/ARUBDAHuAf8BFQEMAe4B/wFYAVIB8gH/A/0B/wP9Af8D/QH/AvsB/QH/AVoBUwHz
+        Af8BFQEMAe4B/wEVAQwB7gH/ASYBHgHvAf8B+gH5Af0B/wG9AboB+QH/AxYBHwIZAbcB/QISAfMB/wIc
+        AfQB/wIlAfUB/wKNAfkF/wLVAf0B/wKAAfgJ/wKwAfsB/wIAAfAB/wIAAfAB/wIAAegB/wJLAUwBjxAA
+        AwcBCQNQAZ4BNQHcAUIB/wE6AecBSQH/AWAB6QFsAf8BggHpAYwB/wGHAegBkAH/AWQB4QFvAf8BJwHN
+        ATUB/wFaAV4BWgHVAxcBIEQAAb8BvQH5Af8B7AHrAfwB/wEVAQwB7gH/ARUBDAHuAf8BFQEMAe4B/wGe
+        AZoB9wH/A/0B/wP9Af8D/QH/A/0B/wHRAc8B+gH/ARUBDAHuAf8BFQEMAe4B/wEVAQwB7gH/AfcB9gH9
+        Af8BvQG6AfkB/wM4AV4CCwHiAf8CIgH0Af8CLQH1Af8CNgH2Af8CPAH3Af8CvQH8Df8C5wH+Af8CIAHz
+        Af8CAAHxAf8CAAHwAf8CAAHwAf8CWQFcAc8MAAMCAQMDQgF0AUABqwFAAf0BLgHcAT0B/wFOAd8BWwH/
+        AWsB4gGDAf8BXAHPAWQB/wGDAd4BjAH/AY4B4AGWAf8BcAHZAYcB/wEjAbcBMAH/A1YBtAMLAQ9AAAG/
+        Ab0B+QH/AewB6wH8Af8BFQEMAe4B/wEVAQwB7gH/ARUBDAHuAf8BoAGcAfcB/wP9Af8D/QH/A/0B/wHc
+        AdsB+wH/AfcB9gH9Af8BFgENAe4B/wEVAQwB7gH/ARUBDAHuAf8B9wH2Af0B/wG+AbsB+QH/AkUBRgF+
+        AhsB6wH/AjEB9gH/Aj4B9wH/AkgB+AH/Ak4B+QH/Am0B+gn/Av0C/wJXAfcB/wIVAfMB/wIFAfEB/wIA
+        AfAB/wIAAfAB/wJMAW4B7wsAAQEBMAExATABTQFCAWwBQgH1ASIB0AExAf8BOAHSAUYB/wFjAdoBbQH/
+        AV8BnAFfAfsDQwF4AVoBYQFaAeQBkAHaAZcB/wGZAdsBnwH/AZEB1gGXAf8BUwG5AVoB/wM2AVlAAAG/
+        Ab0B+QH/Ae0B7AH8Af8BFQEMAe4B/wEVAQwB7gH/ARUBDAHuAf8BoAGcAfcB/wP9Af8D/QH/A/0B/wGR
+        AYwB9gH/AvwB/QH/AR4BFgHvAf8BFQEMAe4B/wEVAQwB7gH/AfcB9gH9Af8BvgG7AfkB/wJFAUYBfgIm
+        AewB/wJAAfcB/wJOAfgB/wJaAfoB/wJhAfoB/wLSAf0J/wLFAfwB/wIqAfUB/wIZAfMB/wIHAfIB/wIA
+        AfAB/wIAAfAB/wJLAW4B8AgAAx8BLAFaAWEBWgHkARYBwgElAf8BIgHEATAB/wFZAdEBYwH/AVQBzQFe
+        Af8DSAGGAwMBBAMsAUQBSQF7AV4B9gGhAdYBpwH/AasB2AGwAf8DXQHTAxABFkAAAb4BvAH5Af8C7QH8
+        Af8BFQEMAe4B/wEVAQwB7gH/ARUBDAHuAf8BngGaAfYB/wP9Af8D/QH/A/0B/wGGAYEB9QH/AdQB0gH6
+        Af8BSQFDAfIB/wEVAQwB7gH/ARUBDAHuAf8C9wH9Af8BvwG9AfkB/wI5AToBYAImAeUB/wJNAfgB/wJd
+        AfoB/wJrAfsB/wLLAf4N/wLxAf4B/wI6AfYB/wIaAfMB/wIHAfIB/wIAAfAB/wIAAfAB/wJYAVwB0QQA
+        AxEBFwNbAcgBCQGvARgB/wEMAbQBGgH/AUwBxwFWAf8BVwHIAWAB/wFVAVYBVQGxAwcBCgQAAwEBAgE+
+        AT8BPgFsAX8BrwF/Af4BWQFqAV8B7AMhATBEAAG+AbwB+QH/AvYB/AH/ASwBJAHwAf8BFQEMAe4B/wEV
+        AQwB7gH/AZYBkgH2Af8D/QH/A/0B/wP9Af8BhwGCAfUB/wEpASEB7wH/ASkBIQHvAf8BFQEMAe4B/wEx
+        ASkB8AH/AvsB/QH/Ab4BuwH5Af8DGAEiAiUBuAH+AlcB+QH/AmkB+wH/AqkB/Qn/AtMB/gH/Ar0B/AX/
+        ArcB+wH/AhcB8wH/AgUB8QH/AgAB8AH/AgAB6QH/A0wBkgMIAQsBUAFSAVABowEAAZkBCgH/AQABowEH
+        Af8BOwG4AUUB/wFXAb8BYAH/AVoBXgFaAdUDEgEYDAADBAEGA0oBjAMyAVADAAEBRAABsgGvAfgB/wHq
+        AekB/AH/Ad4B3AH7Af8BLQElAfAB/wEVAQwB7gH/AYoBhgH1Af8C9QH8Af8D/QH/A/0B/wGIAYMB9QH/
+        ARUBDAHuAf8BFQEMAe4B/wEwASgB8AH/AeIB4QH7Af8B5gHlAfsB/wG2AbMB+AH/BAACVgFYAbsCUwH1
+        Af8CbQH7Af8CkwH9Af8C4AH+Af8C7wH+Af8CaAH6Af8CUAH4Af8CygH8Af8C/gL/Aj8B9QH/AgAB8QH/
+        AgAB8AH/AgABtQH+AyABLwE/AUABPwFvAS4BfwE3Af4BAAGLAQAB/wErAaEBNQH/AVgBsgFfAf8BWQFn
+        AVwB7QEhASIBIQExFAADAgEDAwABAUgAA/0B/wGuAasB9wH/AeoB6QH8Af8B3gHdAfsB/wEtASUB8AH/
+        ARUBDAHuAf8BZgFgAfQB/wHcAdoB+wH/AcwBygH6Af8BTgFHAfIB/wEVAQwB7gH/ATEBKQHwAf8B4gHh
+        AfsB/wHmAeUB+wH/AbIBrwH4Af8D/QH/BAACIQEiATECPwGSAfkCZwH7Af8CcAH8Af8CbgH8Af8CZQH6
+        Af8CUgH5Af8CQQH3Af8CLwH1Af8CRAH2Af8CFgHzAf8CAAHwAf8CAAHkAf8CTwFRAZwEAANDAXgBAwFp
+        AQwB/wEbAYgBJAH/AVgBqQFeAf8BTQGGAU0B+gE0ATUBNAFVAwABAWQAA/0B/wP9Af8BrgGrAfcB/wHp
+        AegB/AH/Ad4B3QH7Af8BNAEsAfAB/wEdARQB7wH/AS8BJwHwAf8BLAEkAfAB/wEdARQB7wH/ATYBLgHw
+        Af8B4gHhAfsB/wHmAeUB+wH/AbIBrwH4Af8D/QH/A/0B/wgAAzsBYwI+AbgB/QJeAfkB/wJcAfoB/wJS
+        AfkB/wJEAfcB/wI1AfYB/wIlAfQB/wIUAfMB/wICAfEB/wIAAeUB/wNbAcgDCAELBAADBgEIAVMBVQFT
+        Aa0BWAGnAV8B/wFTAasBWgH/AUUBRgFFAX8DAgEDaAAD/QH/A/0B/wP9Af8BrwGrAfcB/wHpAegB/AH/
+        A/0B/wP9Af8D/QH/A/0B/wP9Af8D/QH/AeYB5QH7Af8BsgGvAfgB/wP9Af8D/QH/A/0B/wwAAzQBVAJZ
+        AWwB7AI0AekB/wJBAfcB/wI2AfYB/wIoAfUB/wIYAfMB/wIHAewB/wIAAdUB/wJRAVIBpwMKAQ0MAAMP
+        ARQDXAHRA1MBqgMHAQlsAAP9Af8D/QH/A/0B/wP9Af8BtQGyAfgB/wG2AbMB+AH/AbcBtAH4Af8BuAG1
+        AfgB/wG3AbQB+AH/AbYBswH4Af8BtgGzAfgB/wG3AbQB+AH/A/0B/wP9Af8D/QH/A/0B/xAAAw4BEwNE
+        AXoCWQFcAckCSgF8AfMCIQGZAfsCXgFiAeADUQGiAygBPRgAAxQBHAMLAQ9wAAFCAU0BPgcAAT4DAAEo
+        AwABQAMAARADAAEBAQABAQUAAYAXAAP/AwAB8AEPAf8BHwQAAeABAwH+AQ8EAAHAAQEB/AEHBAABgAEB
+        AfwBAwQAAYABAAH4AQEGAAHwAQEGAAHgBwABwAcAAcAHAAGAAUEHAAHhBAABgAEAAQEB8wQAAYACAQH/
+        BAABwAEBAQMB/wQAAeABAwGHAf8EAAHwAQ8BzwH/AgAL
+</value>
+  </data>
+  <data name="listView.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;listView.Name" xml:space="preserve">
+    <value>listView</value>
+  </data>
+  <data name="&gt;&gt;listView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;listView.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <metadata name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>114, 4</value>
+  </metadata>
+  <data name="openFileDialog.Filter" xml:space="preserve">
+    <value>Text | *.txt</value>
+  </data>
+  <metadata name="saveFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>242, 8</value>
+  </metadata>
+  <data name="saveFileDialog.Filter" xml:space="preserve">
+    <value>Text | *.txt</value>
+  </data>
+  <data name="btnAdd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 104</value>
+  </data>
+  <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Name" xml:space="preserve">
+    <value>btnAdd</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtDestinationName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="txtDestinationName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 76</value>
+  </data>
+  <data name="txtDestinationName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="txtDestinationName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtDestinationName.Name" xml:space="preserve">
+    <value>txtDestinationName</value>
+  </data>
+  <data name="&gt;&gt;txtDestinationName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDestinationName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtDestinationName.ZOrder" xml:space="preserve">
     <value>10</value>
+  </data>
+  <data name="txtDestinationAddress.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="txtDestinationAddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 76</value>
+  </data>
+  <data name="txtDestinationAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 20</value>
+  </data>
+  <data name="txtDestinationAddress.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtDestinationAddress.Name" xml:space="preserve">
+    <value>txtDestinationAddress</value>
+  </data>
+  <data name="&gt;&gt;txtDestinationAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDestinationAddress.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtDestinationAddress.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblDestinationName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblDestinationName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDestinationName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 60</value>
+  </data>
+  <data name="lblDestinationName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="lblDestinationName.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblDestinationName.Text" xml:space="preserve">
+    <value>Target Name</value>
+  </data>
+  <data name="&gt;&gt;lblDestinationName.Name" xml:space="preserve">
+    <value>lblDestinationName</value>
+  </data>
+  <data name="&gt;&gt;lblDestinationName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDestinationName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDestinationName.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblDestinationAddress.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblDestinationAddress.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDestinationAddress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 60</value>
+  </data>
+  <data name="lblDestinationAddress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 13</value>
+  </data>
+  <data name="lblDestinationAddress.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblDestinationAddress.Text" xml:space="preserve">
+    <value>Target Address or DNS</value>
+  </data>
+  <data name="&gt;&gt;lblDestinationAddress.Name" xml:space="preserve">
+    <value>lblDestinationAddress</value>
+  </data>
+  <data name="&gt;&gt;lblDestinationAddress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDestinationAddress.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblDestinationAddress.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnRemove.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 104</value>
+  </data>
+  <data name="btnRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnRemove.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnRemove.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="&gt;&gt;btnRemove.Name" xml:space="preserve">
+    <value>btnRemove</value>
+  </data>
+  <data name="&gt;&gt;btnRemove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRemove.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnRemove.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="numericFontSize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="numericFontSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 119</value>
+  </data>
+  <data name="numericFontSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="numericFontSize.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;numericFontSize.Name" xml:space="preserve">
+    <value>numericFontSize</value>
+  </data>
+  <data name="&gt;&gt;numericFontSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numericFontSize.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;numericFontSize.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblFontSize.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblFontSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFontSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 103</value>
+  </data>
+  <data name="lblFontSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lblFontSize.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblFontSize.Text" xml:space="preserve">
+    <value>Font Size</value>
+  </data>
+  <data name="&gt;&gt;lblFontSize.Name" xml:space="preserve">
+    <value>lblFontSize</value>
+  </data>
+  <data name="&gt;&gt;lblFontSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFontSize.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblFontSize.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="timerRefresh.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>371, 10</value>
+  </metadata>
+  <metadata name="menuStopPing.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>495, 11</value>
+  </metadata>
+  <data name="menuStopPing.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="menuStopPing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 208</value>
+  </data>
+  <data name="&gt;&gt;menuStopPing.Name" xml:space="preserve">
+    <value>menuStopPing</value>
   </data>
   <data name="&gt;&gt;menuStopPing.Type" xml:space="preserve">
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="menuStopPing_Stop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="menuStopPing_Stop.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="menuStopPing_Edit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="menuStopPing_Edit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="menuStopPing_Remove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="menuStopPing_Remove.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="menuStopPing_Stats.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="menuStopPing_Stats.Text" xml:space="preserve">
+    <value>Stats</value>
+  </data>
+  <data name="menuStopPing_Rapid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="menuStopPing_Rapid.Text" xml:space="preserve">
+    <value>Rapid...</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 6</value>
+  </data>
+  <data name="menuStopPing_VNC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="menuStopPing_VNC.Text" xml:space="preserve">
+    <value>Ultra VNC</value>
+  </data>
+  <data name="menuStopPing_RemoteDesktop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="menuStopPing_RemoteDesktop.Text" xml:space="preserve">
+    <value>Remote Desktop</value>
+  </data>
+  <data name="menuStopPing_Telnet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="menuStopPing_Telnet.Text" xml:space="preserve">
+    <value>Telnet</value>
+  </data>
+  <data name="menuStopPing_SSH.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 22</value>
+  </data>
+  <data name="menuStopPing_SSH.Text" xml:space="preserve">
+    <value>SSH</value>
+  </data>
+  <metadata name="menuResumePing.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>617, 11</value>
+  </metadata>
+  <data name="menuResumePing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 70</value>
+  </data>
+  <data name="&gt;&gt;menuResumePing.Name" xml:space="preserve">
+    <value>menuResumePing</value>
+  </data>
+  <data name="&gt;&gt;menuResumePing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="menuResumePing_Start.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="menuResumePing_Start.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="menuResumePing_Edit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="menuResumePing_Edit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="menuResumePing_Remove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 22</value>
+  </data>
+  <data name="menuResumePing_Remove.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <metadata name="imageListIcons.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>15, 34</value>
+  </metadata>
   <data name="imageListIcons.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABk
-        LAAAAk1TRnQBSQFMAgEBAwEAAbABAAG4AQABIAEAASABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAGA
-        AwABIAMAAQEBAAEgBgABQD8AAcwBAAH//AACJQHMAf/5AAGZAQAB/wEAAf8BAAH/fQAB/wEAAf94AAJY
-        AcwB/wIAAv/0AAElAVgBJQH/AQABzAEAAf8BAAH/AQAB/3kAAf8BAAH/AQAB/wEAAf90AAKZAcwB/wIA
-        Av8CAAL/8AADKwH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/dQABzAEAAf8BAAHMAQAB/wEAAf8BAAH/
-        cAABxgHWAe8B/wIAAv8CAAL/AgAC/+wAAVgBmQFYAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHM
+        LAAAAk1TRnQBSQFMAgEBAwEAAcABAAHAAQABIAEAASABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAGA
+        AwABIAMAAQEBAAEgBgABQD8AAcwBAAH//AACJAHMAf/5AAGZAQAB/wEAAf8BAAH/fQAB/wEAAf94AAJX
+        AcwB/wIAAv/0AAEkAVcBJAH/AQABzAEAAf8BAAH/AQAB/3kAAf8BAAH/AQAB/wEAAf90AAKZAcwB/wIA
+        Av8CAAL/8AADKgH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/dQABzAEAAf8BAAHMAQAB/wEAAf8BAAH/
+        cAABxgHWAe8B/wIAAv8CAAL/AgAC/+wAAVcBmQFXAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHM
         AQAB/3EAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/bAABxgHWAe8B/wIAAv8CAAL/AgAC/wIA
         Av/oAAOyAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/bQABzAEAAf8BAAHM
         AQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/2gAA/EB/wIAAv8CAAL/AgAC/wIAAv8CAAL/5AAD1wH/
         AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABmQEAAf8BAAGZ
         AQAB/wEAAZkBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/
-        AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wElAVgBJQH/LQABzAEAAf8BAAHM
+        AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEkAVcBJAH/LQABzAEAAf8BAAHM
         AQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/ZAAD8QH/AgAC/wIAAv8CAAL/AgAC/wIA
-        Av8CAAL/ARMBAAGlAf8BEwEAAaUB/wETAQABpQH/ARMBAAGlAf8BEwEAAaUB/wETAQABpQH/ARMBAAGl
-        Af8BEwEAAaUB/wETAQABpQH/ARMBAAGlAf8BEwEAAaUB/wETAQABpQH/ARMBAAGlAf8BEwEAAaUB/wET
+        Av8CAAL/ARIBAAGlAf8BEgEAAaUB/wESAQABpQH/ARIBAAGlAf8BEgEAAaUB/wESAQABpQH/ARIBAAGl
+        Af8BEgEAAaUB/wESAQABpQH/ARIBAAGlAf8BEgEAAaUB/wESAQABpQH/ARIBAAGlAf8BEgEAAaUB/wES
         AQABpQH/pAAD6gH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/
         AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/
         AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/
-        ASUBWAElAf8pAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHM
+        ASQBVwEkAf8pAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHM
         AQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/
         AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8uAAL/
         AgAC/wIAAv8CAAL/AgAC/wIAAv8CAAL/AgABzAH/AgABzAH/AgABzAH/AgABzAH/AgABzAH/AgABzAH/
-        ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEA
-        AcwB/wETAQABpQH/pQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/
+        ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEA
+        AcwB/wESAQABpQH/pQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/
         AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAH/
         AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/
-        AQAB/wEAAf8BJQFYASUB/yUAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHM
+        AQAB/wEAAf8BJAFXASQB/yUAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHM
         AQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/
         AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/
         AQAB/wEAAf8BAAH/KgAC/wIAAv8CAAL/AgAC/wIAAv8CAAL/AgAC/wIAAcwB/wIAAcwB/wIAAcwB/wIA
-        AcwB/wIAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wEl
-        AQABzAH/ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ARMBAAGlAf+hAAHMAQAB/wEAAcwBAAH/AQABzAEA
+        AcwB/wIAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wEk
+        AQABzAH/ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ARIBAAGlAf+hAAHMAQAB/wEAAcwBAAH/AQABzAEA
         Af8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEA
         AcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEA
-        Af8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/ASUBWAElAf8hAAHMAQAB/wEA
+        Af8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/ASQBVwEkAf8hAAHMAQAB/wEA
         AcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEA
         Af8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAH/AQAB/wEA
         Af8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/JgAC/wIA
-        Av8CAAL/AgAC/wIAAv8CAAL/AgAC/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wElAQABzAH/
-        ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEA
-        AcwB/wElAQABzAH/ARMBAAGlAf8BEwEAAaUB/50AAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/
+        Av8CAAL/AgAC/wIAAv8CAAL/AgAC/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wEkAQABzAH/
+        ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEA
+        AcwB/wEkAQABzAH/ARIBAAGlAf8BEgEAAaUB/50AAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/
         AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHM
         AQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAH/AQAB/wEAAf8BAAH/
-        AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wElAVgBJQH/HQABzAEAAf8BAAHM
+        AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEkAVcBJAH/HQABzAEAAf8BAAHM
         AQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/
         AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHM
         AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/
-        IgAC/wIAAv8CAAL/AgAC/wIAAv8CAAL/AgAC/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wEl
-        AQABzAH/ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHM
-        Af8BJQEAAcwB/wETAQABpQH/ARMBAAGlAf8BEwEAAaUB/wETAQABpQH/mQABmQEAAf8BAAHMAQAB/wEA
+        IgAC/wIAAv8CAAL/AgAC/wIAAv8CAAL/AgAC/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wEk
+        AQABzAH/ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHM
+        Af8BJAEAAcwB/wESAQABpQH/ARIBAAGlAf8BEgEAAaUB/wESAQABpQH/mQABmQEAAf8BAAHMAQAB/wEA
         AcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEA
         Af8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEA
         AcwBAAH/AQABzAEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEA
-        Af8BJQFYASUB/xkAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEA
+        Af8BJAFXASQB/xkAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEA
         AcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEA
         Af8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQAB/wEAAf8BAAH/AQAB/wEA
         Af8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/HgAC/wIAAv8CAAL/AgAC/wIAAv8CAAL/AgAC/wIA
-        AcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/
-        ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wETAQABpQH/ARMBAAGlAf8BEwEA
-        AaUB/wETAQABpQH/ARMBAAGlAf+YAAElAVgBJQH/AQABmQEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEA
+        AcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/
+        ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wESAQABpQH/ARIBAAGlAf8BEgEA
+        AaUB/wESAQABpQH/ARIBAAGlAf+YAAEkAVcBJAH/AQABmQEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEA
         Af8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEA
         AcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEA
-        Af8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/ASUBWAElAf8ZAAGZAQAB/wEA
+        Af8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/ASQBVwEkAf8ZAAGZAQAB/wEA
         AcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEA
         Af8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEA
         AcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEA
-        Af8BAAH/AQAB/xwAARMBAAGlAf8CAAL/AgAC/wIAAv8CAAL/AgAC/wIAAcwB/wIAAcwB/wIAAcwB/wIA
-        AcwB/wIAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wEl
-        AQABzAH/ASUBAAHMAf8BJQEAAcwB/wETAQABpQH/ARMBAAGlAf8BEwEAAaUB/wETAQABpQH/ARMBAAGl
-        Af8BEwEAAaUB/50AAYABAAH/AQABmQEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEA
+        Af8BAAH/AQAB/xwAARIBAAGlAf8CAAL/AgAC/wIAAv8CAAL/AgAC/wIAAcwB/wIAAcwB/wIAAcwB/wIA
+        AcwB/wIAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wEk
+        AQABzAH/ASQBAAHMAf8BJAEAAcwB/wESAQABpQH/ARIBAAGlAf8BEgEAAaUB/wESAQABpQH/ARIBAAGl
+        Af8BEgEAAaUB/50AAYABAAH/AQABmQEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEA
         AcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEA
         Af8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEA
-        Af8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAVgBAAH/HQABmQEAAf8BAAGZAQAB/wEAAcwBAAH/AQABzAEA
+        Af8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAVcBAAH/HQABmQEAAf8BAAGZAQAB/wEAAcwBAAH/AQABzAEA
         Af8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEA
         AcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEA
-        Af8BAAHMAQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/IAABEwEAAaUB/wIAAv8CAAL/
-        AgAC/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wEl
-        AQABzAH/ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wETAQABpQH/ARMBAAGl
-        Af8BEwEAAaUB/wETAQABpQH/ARMBAAGlAf8BEwEAAaUB/wETAQABpQH/oQABgAEAAf8BAAGZAQAB/wEA
+        Af8BAAHMAQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/AQAB/wEAAf8BAAH/IAABEgEAAaUB/wIAAv8CAAL/
+        AgAC/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wEk
+        AQABzAH/ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wESAQABpQH/ARIBAAGl
+        Af8BEgEAAaUB/wESAQABpQH/ARIBAAGlAf8BEgEAAaUB/wESAQABpQH/oQABgAEAAf8BAAGZAQAB/wEA
         AcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEA
         Af8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEA
-        AcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQAB/wEAAf8BAAH/AQAB/wEAAVgBAAH/ARMBAAGl
+        AcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQAB/wEAAf8BAAH/AQAB/wEAAVcBAAH/ARIBAAGl
         Af8dAAGZAQAB/wEAAZkBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEA
         AcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEA
         Af8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQAB/wEAAf8BAAH/AQAB/wEA
-        Af8BAAH/ASUB/wFYAf8gAAETAQABpQH/AgAC/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wEl
-        AQABzAH/ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHM
-        Af8BJQEAAcwB/wETAQABpQH/ARMBAAGlAf8BEwEAAaUB/wETAQABpQH/ARMBAAGlAf8BEwEAAaUB/wET
-        AQABpQH/ARMBAAGlAf8BEwEAAaUB/6EAAZkBAAH/AQABmQEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEA
+        Af8BAAH/ASQB/wFXAf8gAAESAQABpQH/AgAC/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wEk
+        AQABzAH/ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHM
+        Af8BJAEAAcwB/wESAQABpQH/ARIBAAGlAf8BEgEAAaUB/wESAQABpQH/ARIBAAGlAf8BEgEAAaUB/wES
+        AQABpQH/ARIBAAGlAf8BEgEAAaUB/6EAAZkBAAH/AQABmQEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEA
         Af8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEA
         AcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEA
-        Af8BAAHMAQAB/wEAAf8BAAH/AQABWAEAAf8CAAHMAf8BEwEAAaUB/x0AAZkBAAH/AQABmQEAAf8BAAHM
+        Af8BAAHMAQAB/wEAAf8BAAH/AQABVwEAAf8CAAHMAf8BEgEAAaUB/x0AAZkBAAH/AQABmQEAAf8BAAHM
         AQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/
         AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHM
-        AQAB/wEAAcwBAAH/AQABzAEAAf8BAAH/AQAB/wEAAf8BAAH/ASUB/wFYAf8BJQH/AVgB/yAAARMBAAGl
-        Af8CAAHMAf8CAAHMAf8CAAHMAf8CAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wEl
-        AQABzAH/ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BEwEAAaUB/wETAQABpQH/ARMBAAGl
-        Af8BEwEAAaUB/wETAQABpQH/ARMBAAGlAf8BEwEAAaUB/wETAQABpQH/ARMBAAGlAf8BWAGZAv8BEwEA
+        AQAB/wEAAcwBAAH/AQABzAEAAf8BAAH/AQAB/wEAAf8BAAH/ASQB/wFXAf8BJAH/AVcB/yAAARIBAAGl
+        Af8CAAHMAf8CAAHMAf8CAAHMAf8CAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wEk
+        AQABzAH/ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BEgEAAaUB/wESAQABpQH/ARIBAAGl
+        Af8BEgEAAaUB/wESAQABpQH/ARIBAAGlAf8BEgEAAaUB/wESAQABpQH/ARIBAAGlAf8BVwGZAv8BEgEA
         AaUB/6EAAZkBAAH/AQABmQEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/
         AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHM
-        AQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAVgBAAH/
-        AgABzAH/AgAC/wETAQABpQH/HQABmQEAAf8BAAGZAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEA
+        AQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAVcBAAH/
+        AgABzAH/AgAC/wESAQABpQH/HQABmQEAAf8BAAGZAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEA
         AcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEA
         Af8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BAAHMAQAB/wEA
-        Af8BAAH/ASUB/wFYAf8BJQH/AVgB/wElAf8BWAH/IAABJQEAAcwB/wIAAcwB/wIAAcwB/wElAQABzAH/
-        ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEA
-        AcwB/wETAQABpQH/ARMBAAGlAf8BEwEAAaUB/wETAQABpQH/ARMBAAGlAf8BEwEAAaUB/wETAQABpQH/
-        ARMBAAGlAf8BEwEAAaUB/wETAQABpQH/AVgBmQL/AVgBmQL/ASUBAAGZAf+hAAGZAQAB/wEAAZkBAAH/
-        AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BEwEAAaUB/wElAQABzAH/ASUBAAHMAf8BJQEA
-        AcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wIAAcwB/wIA
-        AcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAv8CAAL/AgAC/wETAQABpQH/HQABmQEAAf8BAAGZAQAB/wEA
-        AcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wEl
-        Af8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/AVgB/wElAf8BWAH/ASUB/wFYAf8BJQH/AVgB/wEl
-        Af8BWAH/ASUB/wFYAf8BJQH/AVgB/wElAf8BWAH/ASUB/wFYAf8BJQH/AVgB/wElAf8BWAH/IAABJQEA
-        AcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BJQFYAv8BJQFYAv8BJQFY
-        Av8BJQFYAv8BJQFYAv8CWAL/AlgC/wJYAv8CWAL/AVgBmQL/AVgBmQL/AVgBmQL/AVgBmQL/AVgBmQL/
-        AVgBmQL/AVgBmQL/AVgBmQL/AVgBmQL/AiUBzAH/nAABEwEAAaUB/wEAAZkBAAH/AQABmQEAAf8BAAHM
-        AQAB/wEAAcwBAAH/AQABzAEAAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/
-        ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8CAAHMAf8CAAHMAf8CAAHMAf8CAAHMAf8CAAHM
-        Af8CAAL/AgAC/wIAAv8CAAL/AgAC/wIlAcwB/xkAAf8BJQH/AQABmQEAAf8BAAGZAQAB/wEAAcwBAAH/
-        AQABzAEAAf8BAAHMAQAB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/
-        ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/AVgB/wElAf8BWAH/ASUB/wFYAf8BJQH/AVgB/wElAf8BWAH/
-        ASUB/wFYAf8BJQH/AVgB/wElAf8BWAH/ASUB/wFYAf8BJQH/AVgB/wElAf8BWAH/HAACJQL/ASUBAAHM
-        Af8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wElAVgC/wElAVgC/wElAVgC/wElAVgC/wJY
-        Av8CWAL/AlgC/wJYAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZ
-        Av8BWAGZAv8BWAGZAv8BWAGZAv8BWAElAcwB/5gAARMBAAGlAf8BEwEAAaUB/wEAAZkBAAH/AQABmQEA
-        Af8BAAHMAQAB/wEAAcwBAAH/ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wEl
-        AQABzAH/ASUBAAHMAf8BJQEAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAv8CAAL/
-        AgAC/wIAAv8CAAL/AgAC/wIAAv8ZAAH/ASUB/wEAAf8BJQH/AQABmQEAAf8BAAGZAQAB/wEAAcwBAAH/
-        AQABzAEAAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/
-        ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/AVgB/wElAf8BWAH/ASUB/wFYAf8BJQH/AVgB/wElAf8BWAH/
-        ASUB/wFYAf8BJQH/AVgB/wElAf8BWAH/ASUB/wFYAf8BJQH/AVgB/wElAf8BWAH/GAACJQL/ASUBWAL/
-        ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BJQFYAv8BJQFYAv8BJQFYAv8CWAL/AlgC/wJY
-        Av8CWAL/AVgBmQL/AVgBmQL/AVgBmQL/AVgBmQL/AVgBmQL/AVgBmQL/AVgBmQL/AVgBmQL/AVgBmQL/
-        AVgBmQL/AVgBmQL/AVgBmQL/AVgBmQL/mAABEwEAAaUB/wETAQABpQH/ARMBAAGlAf8BAAGZAQAB/wEA
-        AZkBAAH/AQABmQEAAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHM
-        Af8BJQEAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAv8CAAL/AgAC/wIAAv8CAAL/
-        AgAC/wIAAv8dAAH/ASUB/wEAAf8BJQH/AQAB/wElAf8BAAGZAQAB/wEAAZkBAAH/AQABzAEAAf8BJQH/
-        ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/
-        ASUB/wElAf8BJQH/ASUB/wElAf8BWAH/ASUB/wFYAf8BJQH/AVgB/wElAf8BWAH/ASUB/wFYAf8BJQH/
-        AVgB/wElAf8BWAH/ASUB/wFYAf8BJQH/AVgB/xwAAiUC/wElAVgC/wElAVgC/wElAQABzAH/ASUBAAHM
-        Af8BJQEAAcwB/wElAVgC/wElAVgC/wJYAv8CWAL/AlgC/wJYAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZ
-        Av8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv+cAAET
-        AQABpQH/ARMBAAGlAf8BJQEAAcwB/wElAQABzAH/AQABmQEAAf8BAAGZAQAB/wElAQABzAH/ASUBAAHM
-        Af8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8CAAHMAf8CAAHMAf8CAAHMAf8CAAHMAf8CAAHMAf8CAAHM
-        Af8CAAL/AgAC/wIAAv8CAAL/AgAC/wIAAv8CAAL/IQAB/wElAf8BAAH/ASUB/wEAAf8BJQH/AQAB/wEl
-        Af8BAAGZAQAB/wEAAZkBAAH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wEl
-        Af8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wFY
-        Af8BJQH/AVgB/wElAf8BWAH/ASUB/wFYAf8BJQH/AVgB/wElAf8BWAH/IAACJQL/ASUBWAL/ASUBWAL/
-        ASUBWAL/ASUBAAHMAf8BEwEAAaUB/wElAVgC/wJYAv8CWAL/AlgC/wJYAv8BWAGZAv8BWAGZAv8BWAGZ
-        Av8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZ
-        Av+gAAETAQABpQH/ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BAAGZAQAB/wElAQABzAH/
-        ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/AgABzAH/AgABzAH/AgABzAH/AgABzAH/AgABzAH/AgABzAH/
-        AgAC/wIAAv8CAAL/AgAC/wIAAv8CAAL/AgAC/yUAAf8BJQH/AQAB/wElAf8BAAH/ASUB/wEAAf8BJQH/
-        AQAB/wElAf8BAAGZAQAB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/
-        ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/
-        ASUB/wFYAf8BJQH/AVgB/wElAf8BWAH/ASUB/wFYAf8kAAJCAv8BJQFYAv8BJQFYAv8BJQFYAv8BJQFY
-        Av8BEwEAAaUB/wJYAv8CWAL/AlgC/wJYAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZ
-        Av8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv+kAAElAQABzAH/ASUBAAHM
-        Af8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wElAQABzAH/ASUBAAHMAf8BJQEAAcwB/wIA
+        Af8BAAH/ASQB/wFXAf8BJAH/AVcB/wEkAf8BVwH/IAABJAEAAcwB/wIAAcwB/wIAAcwB/wEkAQABzAH/
+        ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEA
+        AcwB/wESAQABpQH/ARIBAAGlAf8BEgEAAaUB/wESAQABpQH/ARIBAAGlAf8BEgEAAaUB/wESAQABpQH/
+        ARIBAAGlAf8BEgEAAaUB/wESAQABpQH/AVcBmQL/AVcBmQL/ASQBAAGZAf+hAAGZAQAB/wEAAZkBAAH/
+        AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/AQABzAEAAf8BEgEAAaUB/wEkAQABzAH/ASQBAAHMAf8BJAEA
+        AcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wIAAcwB/wIA
+        AcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAv8CAAL/AgAC/wESAQABpQH/HQABmQEAAf8BAAGZAQAB/wEA
+        AcwBAAH/AQABzAEAAf8BAAHMAQAB/wEAAcwBAAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEk
+        Af8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/AVcB/wEkAf8BVwH/ASQB/wFXAf8BJAH/AVcB/wEk
+        Af8BVwH/ASQB/wFXAf8BJAH/AVcB/wEkAf8BVwH/ASQB/wFXAf8BJAH/AVcB/wEkAf8BVwH/IAABJAEA
+        AcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAFXAv8BJAFXAv8BJAFX
+        Av8BJAFXAv8BJAFXAv8CVwL/AlcC/wJXAv8CVwL/AVcBmQL/AVcBmQL/AVcBmQL/AVcBmQL/AVcBmQL/
+        AVcBmQL/AVcBmQL/AVcBmQL/AVcBmQL/AiQBzAH/nAABEgEAAaUB/wEAAZkBAAH/AQABmQEAAf8BAAHM
+        AQAB/wEAAcwBAAH/AQABzAEAAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/
+        ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8CAAHMAf8CAAHMAf8CAAHMAf8CAAHMAf8CAAHM
+        Af8CAAL/AgAC/wIAAv8CAAL/AgAC/wIkAcwB/xkAAf8BJAH/AQABmQEAAf8BAAGZAQAB/wEAAcwBAAH/
+        AQABzAEAAf8BAAHMAQAB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/
+        ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/AVcB/wEkAf8BVwH/ASQB/wFXAf8BJAH/AVcB/wEkAf8BVwH/
+        ASQB/wFXAf8BJAH/AVcB/wEkAf8BVwH/ASQB/wFXAf8BJAH/AVcB/wEkAf8BVwH/HAACJAL/ASQBAAHM
+        Af8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wEkAVcC/wEkAVcC/wEkAVcC/wEkAVcC/wJX
+        Av8CVwL/AlcC/wJXAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZ
+        Av8BVwGZAv8BVwGZAv8BVwGZAv8BVwEkAcwB/5gAARIBAAGlAf8BEgEAAaUB/wEAAZkBAAH/AQABmQEA
+        Af8BAAHMAQAB/wEAAcwBAAH/ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wEk
+        AQABzAH/ASQBAAHMAf8BJAEAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAv8CAAL/
+        AgAC/wIAAv8CAAL/AgAC/wIAAv8ZAAH/ASQB/wEAAf8BJAH/AQABmQEAAf8BAAGZAQAB/wEAAcwBAAH/
+        AQABzAEAAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/
+        ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/AVcB/wEkAf8BVwH/ASQB/wFXAf8BJAH/AVcB/wEkAf8BVwH/
+        ASQB/wFXAf8BJAH/AVcB/wEkAf8BVwH/ASQB/wFXAf8BJAH/AVcB/wEkAf8BVwH/GAACJAL/ASQBVwL/
+        ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAFXAv8BJAFXAv8BJAFXAv8CVwL/AlcC/wJX
+        Av8CVwL/AVcBmQL/AVcBmQL/AVcBmQL/AVcBmQL/AVcBmQL/AVcBmQL/AVcBmQL/AVcBmQL/AVcBmQL/
+        AVcBmQL/AVcBmQL/AVcBmQL/AVcBmQL/mAABEgEAAaUB/wESAQABpQH/ARIBAAGlAf8BAAGZAQAB/wEA
+        AZkBAAH/AQABmQEAAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHM
+        Af8BJAEAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAv8CAAL/AgAC/wIAAv8CAAL/
+        AgAC/wIAAv8dAAH/ASQB/wEAAf8BJAH/AQAB/wEkAf8BAAGZAQAB/wEAAZkBAAH/AQABzAEAAf8BJAH/
+        ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/
+        ASQB/wEkAf8BJAH/ASQB/wEkAf8BVwH/ASQB/wFXAf8BJAH/AVcB/wEkAf8BVwH/ASQB/wFXAf8BJAH/
+        AVcB/wEkAf8BVwH/ASQB/wFXAf8BJAH/AVcB/xwAAiQC/wEkAVcC/wEkAVcC/wEkAQABzAH/ASQBAAHM
+        Af8BJAEAAcwB/wEkAVcC/wEkAVcC/wJXAv8CVwL/AlcC/wJXAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZ
+        Av8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv+cAAES
+        AQABpQH/ARIBAAGlAf8BJAEAAcwB/wEkAQABzAH/AQABmQEAAf8BAAGZAQAB/wEkAQABzAH/ASQBAAHM
+        Af8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8CAAHMAf8CAAHMAf8CAAHMAf8CAAHMAf8CAAHMAf8CAAHM
+        Af8CAAL/AgAC/wIAAv8CAAL/AgAC/wIAAv8CAAL/IQAB/wEkAf8BAAH/ASQB/wEAAf8BJAH/AQAB/wEk
+        Af8BAAGZAQAB/wEAAZkBAAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEk
+        Af8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wFX
+        Af8BJAH/AVcB/wEkAf8BVwH/ASQB/wFXAf8BJAH/AVcB/wEkAf8BVwH/IAACJAL/ASQBVwL/ASQBVwL/
+        ASQBVwL/ASQBAAHMAf8BEgEAAaUB/wEkAVcC/wJXAv8CVwL/AlcC/wJXAv8BVwGZAv8BVwGZAv8BVwGZ
+        Av8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZ
+        Av+gAAESAQABpQH/ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BAAGZAQAB/wEkAQABzAH/
+        ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/AgABzAH/AgABzAH/AgABzAH/AgABzAH/AgABzAH/AgABzAH/
+        AgAC/wIAAv8CAAL/AgAC/wIAAv8CAAL/AgAC/yUAAf8BJAH/AQAB/wEkAf8BAAH/ASQB/wEAAf8BJAH/
+        AQAB/wEkAf8BAAGZAQAB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/
+        ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/
+        ASQB/wFXAf8BJAH/AVcB/wEkAf8BVwH/ASQB/wFXAf8kAAJBAv8BJAFXAv8BJAFXAv8BJAFXAv8BJAFX
+        Av8BEgEAAaUB/wJXAv8CVwL/AlcC/wJXAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZ
+        Av8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv+kAAEkAQABzAH/ASQBAAHM
+        Af8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wEkAQABzAH/ASQBAAHMAf8BJAEAAcwB/wIA
         AcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAcwB/wIAAv8CAAL/AgAC/wIAAv8CAAL/AgAC/wIA
-        Av8pAAH/ASUB/wEAAf8BJQH/AQAB/wElAf8BAAH/ASUB/wEAAf8BJQH/AQAB/wElAf8BAAH/ASUB/wEl
-        Af8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wEl
-        Af8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wFYAf8BJQH/AVgB/ygA
-        AkIC/wElAVgC/wElAVgC/wElAVgC/wJYAv8CWAL/AlgC/wJYAv8CWAL/AVgBmQL/AVgBmQL/AVgBmQL/
-        AVgBmQL/AVgBmQL/AVgBmQL/AVgBmQL/AVgBmQL/AVgBmQL/AVgBmQL/AVgBmQL/AVgBmQL/AVgBmQL/
-        qAABEwEAAaUB/wETAQABpQH/ARMBAAGlAf8BEwEAAaUB/wETAQABpQH/ARMBAAGlAf8BEwEAAaUB/wET
-        AQABpQH/ARMBAAGlAf8BEwEAAaUB/wETAQABpQH/ARMBAAGlAf8BEwEAAaUB/wETAQABpQH/ARMBAAGl
-        Af8CAAL/AgAC/wIAAv8CAAL/AgAC/wIAAv8tAAH/ASUB/wEAAf8BJQH/AQAB/wElAf8BAAH/ASUB/wEA
-        Af8BJQH/AQAB/wElAf8BAAH/ASUB/wEAAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wEl
-        Af8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wEl
-        Af8BJQH/ASUB/wElAf8sAAETAQABpQH/ARMBAAGlAf8BEwEAAaUB/wETAQABpQH/ARMBAAGlAf8BEwEA
-        AaUB/wETAQABpQH/ARMBAAGlAf8BEwEAAaUB/wETAQABpQH/ARMBAAGlAf8BEwEAAaUB/wETAQABpQH/
-        ARMBAAGlAf8BEwEAAaUB/wFYAZkC/wFYAZkC/wFYAZkC/wFYAZkC/wFYAZkC/wFYAZkC/+oAAv8CAAL/
-        AgAC/wIAAv8CAAL/aQABWAElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/
-        bAABWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv8BWAGZAv8D8QH/6gAC/wIAAv8CAAL/AgAC/20AAVgBJQH/
-        ASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/wElAf9wAAFYAZkC/wFYAZkC/wFYAZkC/wFYAZkC/wPx
-        Af/uAAL/AgAC/wIAAv9xAAFYASUB/wElAf8BJQH/ASUB/wElAf8BJQH/ASUB/3QAAVgBmQL/AVgBmQL/
-        AVgBmQL/A/EB//IAAv8CAAL/dQABWAElAf8BJQH/ASUB/wElAf8BJQH/eAABWAGZAv8BWAGZAv8D8QH/
-        9gAC/wHGAdYB7wH/dQABWAElAf8BJQH/ASUB/3wAAVgBmQL/ApkBzAH/+AABzAGZAcwB/3kAAVgBJQH/
-        gAABmQFYAcwB//8A/wCqAAFCAU0BPgcAAT4DAAEoAwABgAMAASADAAEBAQABAQYAAQIWAAP/AQAB/wHv
+        Av8pAAH/ASQB/wEAAf8BJAH/AQAB/wEkAf8BAAH/ASQB/wEAAf8BJAH/AQAB/wEkAf8BAAH/ASQB/wEk
+        Af8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEk
+        Af8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wFXAf8BJAH/AVcB/ygA
+        AkEC/wEkAVcC/wEkAVcC/wEkAVcC/wJXAv8CVwL/AlcC/wJXAv8CVwL/AVcBmQL/AVcBmQL/AVcBmQL/
+        AVcBmQL/AVcBmQL/AVcBmQL/AVcBmQL/AVcBmQL/AVcBmQL/AVcBmQL/AVcBmQL/AVcBmQL/AVcBmQL/
+        qAABEgEAAaUB/wESAQABpQH/ARIBAAGlAf8BEgEAAaUB/wESAQABpQH/ARIBAAGlAf8BEgEAAaUB/wES
+        AQABpQH/ARIBAAGlAf8BEgEAAaUB/wESAQABpQH/ARIBAAGlAf8BEgEAAaUB/wESAQABpQH/ARIBAAGl
+        Af8CAAL/AgAC/wIAAv8CAAL/AgAC/wIAAv8tAAH/ASQB/wEAAf8BJAH/AQAB/wEkAf8BAAH/ASQB/wEA
+        Af8BJAH/AQAB/wEkAf8BAAH/ASQB/wEAAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEk
+        Af8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEk
+        Af8BJAH/ASQB/wEkAf8sAAESAQABpQH/ARIBAAGlAf8BEgEAAaUB/wESAQABpQH/ARIBAAGlAf8BEgEA
+        AaUB/wESAQABpQH/ARIBAAGlAf8BEgEAAaUB/wESAQABpQH/ARIBAAGlAf8BEgEAAaUB/wESAQABpQH/
+        ARIBAAGlAf8BEgEAAaUB/wFXAZkC/wFXAZkC/wFXAZkC/wFXAZkC/wFXAZkC/wFXAZkC/+oAAv8CAAL/
+        AgAC/wIAAv8CAAL/aQABVwEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/
+        bAABVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv8BVwGZAv8D8QH/6gAC/wIAAv8CAAL/AgAC/20AAVcBJAH/
+        ASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/wEkAf9wAAFXAZkC/wFXAZkC/wFXAZkC/wFXAZkC/wPx
+        Af/uAAL/AgAC/wIAAv9xAAFXASQB/wEkAf8BJAH/ASQB/wEkAf8BJAH/ASQB/3QAAVcBmQL/AVcBmQL/
+        AVcBmQL/A/EB//IAAv8CAAL/dQABVwEkAf8BJAH/ASQB/wEkAf8BJAH/eAABVwGZAv8BVwGZAv8D8QH/
+        9gAC/wHGAdYB7wH/dQABVwEkAf8BJAH/ASQB/3wAAVcBmQL/ApkBzAH/+AABzAGZAcwB/3kAAVcBJAH/
+        gAABmQFXAcwB//8A/wCqAAFCAU0BPgcAAT4DAAEoAwABgAMAASADAAEBAQABAQYAAQIWAAP/AQAB/wHv
         B/8B7wL/BAAB/wHPA/8B7wP/Ac8C/wQAAf8BjwP/Ac8D/wGPAv8EAAH/AQ8D/wGPA/8BDwL/BAAB/gEP
         A/8BDwL/Af4BDwL/BAAB/AEPAv8B/gEPAv8B/AEPAv8EAAH4AgABHwH8AQ8C/wH4AgABHwQAAfACAAEf
         AfgCAAE/AfgCAAEfBAAB8AIAAR8B8AIAAT8B8AIAAR8EAAHgAgABHwHgAgABPwHgAgABHwQAAcACAAEf
@@ -554,629 +846,340 @@
         AfwCAAEBAfwCAAEBAfwCAAEBBAAB/AIAAQMB/AIAAQMB/AIAAQMEAAH8AgABBwH8AgABBwH8AgABBwQA
         AfwCAAEPAfwCAAEPAfwCAAEPBAAB/AIAAR8B/AIAAR8B/AIAAR8EAAL/AfgBPwL/AfABPwL/AfgBHwQA
         Av8B+AF/Av8B8AF/Av8B+AE/BAAC/wH4A/8B8AP/AfgBfwQAAv8B+QP/AfED/wH4Af8EAAL/AfkD/wHz
-        A/8B+QH/BAAC/wH7A/8B9wP/AfsB/wQADP8aAAs=
+        A/8B+QH/BAAC/wH7A/8B9wP/AfsB/wQADP8EAAs=
 </value>
   </data>
-  <data name="&gt;&gt;lblIPv4Address.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>133, 35</value>
+  </metadata>
+  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 446</value>
   </data>
-  <data name="&gt;&gt;btnAdd.Name" xml:space="preserve">
-    <value>btnAdd</value>
+  <data name="statusStrip1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
   </data>
-  <data name="&gt;&gt;imageListIcons.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 22</value>
   </data>
-  <data name="toolStripDropDownButton1.Text" xml:space="preserve">
-    <value>All IP Addresses</value>
+  <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
-  <data name="&gt;&gt;menuStopPing_Stats.Name" xml:space="preserve">
-    <value>menuStopPing_Stats</value>
-  </data>
-  <data name="&gt;&gt;openFileDialog.Name" xml:space="preserve">
-    <value>openFileDialog</value>
+  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
+    <value>statusStrip1</value>
   </data>
   <data name="&gt;&gt;statusStrip1.Type" xml:space="preserve">
     <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;menuStopPing_Remove.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;statusStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="menuStopPing_Rapid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 22</value>
+  <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
+    <value>14</value>
   </data>
-  <data name="menuSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 22</value>
+  <data name="lblIPAddressTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 17</value>
   </data>
-  <data name="&gt;&gt;menuStopPing_Stats.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblIPAddressTitle.Text" xml:space="preserve">
+    <value>Local IPv4 Address:</value>
   </data>
-  <data name="&gt;&gt;menuStrip.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="lblDestinationAddress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>76, 60</value>
-  </data>
-  <data name="listView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="btnRemove.Text" xml:space="preserve">
-    <value>Remove</value>
+  <data name="lblIPv4Address.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 17</value>
   </data>
   <data name="lblIPv4Address.Text" xml:space="preserve">
     <value>0.0.0.0</value>
   </data>
-  <data name="menuStopPing_RemoteDesktop.Text" xml:space="preserve">
-    <value>Remote Desktop</value>
+  <data name="toolStripDropDownButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
+        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
+        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
+        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
+        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
+        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
+        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
+        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
+        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
+        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+</value>
   </data>
-  <data name="&gt;&gt;menuStopPing_VNC.Name" xml:space="preserve">
-    <value>menuStopPing_VNC</value>
+  <data name="toolStripDropDownButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
   </data>
-  <data name="&gt;&gt;listView.Parent" xml:space="preserve">
+  <data name="toolStripDropDownButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 20</value>
+  </data>
+  <data name="toolStripDropDownButton1.Text" xml:space="preserve">
+    <value>All IP Addresses</value>
+  </data>
+  <data name="toolStripDropDownButton1.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>TextBeforeImage</value>
+  </data>
+  <data name="lblFileName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFileName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFileName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 32</value>
+  </data>
+  <data name="lblFileName.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="lblFileName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 13</value>
+  </data>
+  <data name="lblFileName.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblFileName.Text" xml:space="preserve">
+    <value>File:</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.Name" xml:space="preserve">
+    <value>lblFileName</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFileName.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="btnAdd.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="&gt;&gt;lblFileName.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FrmMain</value>
+  <data name="txtFileName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
-  <data name="lblFontSize.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="txtFileName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 32</value>
   </data>
-  <data name="menuSaveAS.Text" xml:space="preserve">
-    <value>Save as..</value>
-  </data>
-  <data name="menuStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;menuResumePing.Name" xml:space="preserve">
-    <value>menuResumePing</value>
-  </data>
-  <data name="txtDestinationAddress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 76</value>
-  </data>
-  <data name="&gt;&gt;menuResumePing_Remove.Name" xml:space="preserve">
-    <value>menuResumePing_Remove</value>
-  </data>
-  <data name="txtFileName.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;txtDestinationAddress.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="menuStopPing_Remove.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 22</value>
-  </data>
-  <data name="numericFontSize.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 119</value>
-  </data>
-  <data name="menuStopPing_Rapid.Text" xml:space="preserve">
-    <value>Rapid...</value>
-  </data>
-  <data name="menuStopPing_Stats.Text" xml:space="preserve">
-    <value>Stats</value>
-  </data>
-  <data name="menuStopPing.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
-  </data>
-  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 446</value>
-  </data>
-  <data name="menuStopPing_VNC.Text" xml:space="preserve">
-    <value>Ultra VNC</value>
-  </data>
-  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStopPing_SSH.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="txtFileName.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
   </data>
   <data name="txtFileName.Size" type="System.Drawing.Size, System.Drawing">
     <value>256, 13</value>
   </data>
-  <data name="numericFontSize.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="txtFileName.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
-  <data name="numericFontSize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 20</value>
+  <data name="&gt;&gt;txtFileName.Name" xml:space="preserve">
+    <value>txtFileName</value>
   </data>
-  <data name="&gt;&gt;menuStopPing_Rapid.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtFileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtFileName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtFileName.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>309, 468</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>325, 300</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Pinger</value>
+  </data>
+  <data name="&gt;&gt;menuFile.Name" xml:space="preserve">
+    <value>menuFile</value>
+  </data>
+  <data name="&gt;&gt;menuFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuOpen.Name" xml:space="preserve">
+    <value>menuOpen</value>
+  </data>
+  <data name="&gt;&gt;menuOpen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuSave.Name" xml:space="preserve">
+    <value>menuSave</value>
+  </data>
+  <data name="&gt;&gt;menuSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuSaveAS.Name" xml:space="preserve">
+    <value>menuSaveAS</value>
+  </data>
+  <data name="&gt;&gt;menuSaveAS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuSettings.Name" xml:space="preserve">
+    <value>menuSettings</value>
+  </data>
+  <data name="&gt;&gt;menuSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuAutoInsert.Name" xml:space="preserve">
+    <value>menuAutoInsert</value>
+  </data>
+  <data name="&gt;&gt;menuAutoInsert.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;menuAbout.Name" xml:space="preserve">
     <value>menuAbout</value>
   </data>
-  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtFileName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="menuAutoInsert.Text" xml:space="preserve">
-    <value>Auto Insert</value>
-  </data>
-  <data name="lblFileName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;btnRemove.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;menuAbout.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
+    <value>columnHeader1</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;columnHeader2.Name" xml:space="preserve">
     <value>columnHeader2</value>
   </data>
-  <data name="&gt;&gt;menuOpen.Name" xml:space="preserve">
-    <value>menuOpen</value>
-  </data>
-  <data name="saveFileDialog.Filter" xml:space="preserve">
-    <value>Text | *.txt</value>
-  </data>
-  <data name="lblDestinationAddress.Text" xml:space="preserve">
-    <value>Target Address or DNS</value>
-  </data>
-  <data name="menuAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 20</value>
-  </data>
-  <data name="menuSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 20</value>
-  </data>
-  <data name="&gt;&gt;menuSave.Name" xml:space="preserve">
-    <value>menuSave</value>
-  </data>
-  <data name="&gt;&gt;lblFontSize.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="menuStopPing_Telnet.Text" xml:space="preserve">
-    <value>Telnet</value>
-  </data>
-  <data name="&gt;&gt;listView.Name" xml:space="preserve">
-    <value>listView</value>
-  </data>
-  <data name="lblDestinationName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 13</value>
-  </data>
-  <data name="toolStripDropDownButton1.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>TextBeforeImage</value>
-  </data>
-  <data name="menuResumePing_Edit.Text" xml:space="preserve">
-    <value>Edit</value>
-  </data>
-  <data name="&gt;&gt;lblFileName.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="columnHeader2.Width" type="System.Int32, mscorlib">
-    <value>141</value>
-  </data>
-  <data name="lblFileName.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;lblIPAddressTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtDestinationAddress.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="openFileDialog.Filter" xml:space="preserve">
-    <value>Text | *.txt</value>
-  </data>
-  <data name="&gt;&gt;btnAdd.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStrip.Name" xml:space="preserve">
-    <value>menuStrip</value>
-  </data>
-  <data name="txtDestinationName.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;imageListIcons.Name" xml:space="preserve">
-    <value>imageListIcons</value>
-  </data>
-  <data name="&gt;&gt;menuStopPing.Name" xml:space="preserve">
-    <value>menuStopPing</value>
-  </data>
-  <data name="&gt;&gt;menuOpen.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblDestinationAddress.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuResumePing.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="menuStopPing_Edit.Text" xml:space="preserve">
-    <value>Edit</value>
-  </data>
-  <data name="&gt;&gt;menuStopPing_Stop.Name" xml:space="preserve">
-    <value>menuStopPing_Stop</value>
-  </data>
-  <data name="&gt;&gt;txtFileName.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="txtFileName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="menuAutoInsert.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 20</value>
-  </data>
-  <data name="lblFileName.Text" xml:space="preserve">
-    <value>File:</value>
-  </data>
-  <data name="menuSaveAS.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 22</value>
-  </data>
-  <data name="&gt;&gt;numericFontSize.Name" xml:space="preserve">
-    <value>numericFontSize</value>
-  </data>
-  <data name="&gt;&gt;toolStripDropDownButton1.Name" xml:space="preserve">
-    <value>toolStripDropDownButton1</value>
-  </data>
   <data name="&gt;&gt;columnHeader2.Type" xml:space="preserve">
     <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="columnHeader1.Text" xml:space="preserve">
-    <value>Target Name</value>
-  </data>
-  <data name="listView.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tahoma, 9pt</value>
-  </data>
-  <data name="lblDestinationAddress.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;lblDestinationName.Name" xml:space="preserve">
-    <value>lblDestinationName</value>
-  </data>
-  <data name="&gt;&gt;lblFontSize.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="txtFileName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>41, 32</value>
-  </data>
-  <data name="&gt;&gt;lblDestinationName.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;menuStopPing_Telnet.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="toolStripDropDownButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="&gt;&gt;txtDestinationAddress.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="menuFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 20</value>
-  </data>
-  <data name="menuStrip.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="&gt;&gt;menuSettings.Name" xml:space="preserve">
-    <value>menuSettings</value>
-  </data>
-  <data name="&gt;&gt;menuFile.Name" xml:space="preserve">
-    <value>menuFile</value>
-  </data>
-  <data name="&gt;&gt;txtDestinationName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 6</value>
-  </data>
-  <data name="menuStopPing_Remove.Text" xml:space="preserve">
-    <value>Remove</value>
-  </data>
-  <data name="&gt;&gt;listView.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuSave.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="menuStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>309, 24</value>
-  </data>
-  <data name="lblFontSize.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;menuResumePing_Start.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblDestinationName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="listView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 148</value>
-  </data>
-  <data name="&gt;&gt;lblFileName.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="menuStopPing_Stop.Text" xml:space="preserve">
-    <value>Stop</value>
-  </data>
-  <data name="btnRemove.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="&gt;&gt;menuStopPing_Remove.Name" xml:space="preserve">
-    <value>menuStopPing_Remove</value>
-  </data>
-  <data name="lblDestinationName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>230, 60</value>
-  </data>
-  <data name="&gt;&gt;lblDestinationAddress.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;menuStopPing_RemoteDesktop.Name" xml:space="preserve">
-    <value>menuStopPing_RemoteDesktop</value>
-  </data>
-  <data name="lblIPAddressTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 17</value>
-  </data>
-  <data name="listView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>284, 295</value>
-  </data>
-  <data name="btnRemove.Location" type="System.Drawing.Point, System.Drawing">
-    <value>131, 104</value>
   </data>
   <data name="&gt;&gt;imagePingState.Name" xml:space="preserve">
     <value>imagePingState</value>
   </data>
-  <data name="lblDestinationName.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;txtDestinationName.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="imagePingState.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAM
-        EAAAAk1TRnQBSQFMAgEBAwEAAbABAAG4AQABEAEAARABAAT/ASEBEAj/AUIBTQE2BwABNgMAASgDAAFA
-        AwABEAMAAQEBAAEgBgABEBIAA/0B/wP9Af8D/QH/AvsB/QH/AakBpgH3Af8BuAG1AfgB/wG7AbkB+AH/
-        AbwBuQH4Af8BvAG5AfgB/wG7AbgB+AH/AbsBuAH4Af8BrgGrAfcB/wL8Af0B/wP9Af8D/QH/A/0B/xAA
-        AwsBDwNBAXICWAFaAcACVgFtAesCNwGCAfUCWgFeAdgDTgGZAyQBNTAAAwYBCAM+AWsDFAEcVAAD/QH/
-        A/0B/wH7AfoB/QH/AaQBoAH3Af8C8AH8Af8C8wH8Af8C6gH8Af8B6gHpAfwB/wHqAekB/AH/AesB6gH8
-        Af8C9QH8Af8C7gH8Af8BpwGkAfcB/wL8Af0B/wP9Af8D/QH/DAACMAExAU0CVwFnAegCAAHhAf8CAAHv
-        Af8CAAHwAf8CAAHwAf8CAAHwAf8CAAHpAf8CAAG4Af4DUAGeAwgBCyQAAwIBAwM/AW0BTwGxAVgB/ANU
-        Aa4DCgEOUAAD/QH/AvoB/QH/AaMBnwH3Af8B8QHwAfwB/wHPAc0B+gH/ASQBHAHvAf8BOgEyAfAB/wFR
-        AUsB8gH/AVcBUQHyAf8BPwE4AfEB/wEnAR8B7wH/AdYB1AH6Af8B7wHuAfwB/wGoAaQB9wH/AvwB/QH/
-        A/0B/wgAAzgBXAIOAa8B/AIAAe8B/wIAAfAB/wIAAfAB/wIAAfAB/wIAAfAB/wIAAfAB/wIAAfAB/wIA
-        AfAB/wIAAeQB/wJXAVkBwgMHAQkfAAEBAy4BRwFPAYEBXQHzAW4B/wGIAf8BVwHCAWEB/gNIAYUDBAEG
-        TAAC+gH9Af8BowGfAfcB/wLxAfwB/wHPAc0B+gH/ASMBGwHvAf8BFgENAe4B/wGlAaIB9wH/A/0B/wP9
-        Af8BrwGrAfgB/wEWAQ0B7gH/AScBHgHvAf8B1QHTAfoB/wLvAfwB/wGoAaQB9wH/AvwB/QH/BAADHwEt
-        AjYBjgH3AgAB8AH/AgIB8QH/AggB8gH/AgsB8gH/AgsB8gH/AggB8gH/AhgB8gH/AmoB9wH/AiQB8wH/
-        AgAB8AH/AgAB4wH/Ak4BTwGXHAADHQEpAVsBYQFbAeEBVgH9AWUB/wFTAfsBYgH/AUoB9wFZAf8BQQGO
-        AUMB+QM4AV0DAQECSAABqwGnAfcB/wHyAfEB/AH/Ac8BzQH6Af8BIwEbAe8B/wEWAQ0B7gH/ARYBDQHu
-        Af8BxwHEAfkB/wP9Af8D/QH/AbwBugH5Af8BFgENAe4B/wEWAQ0B7gH/AScBHwHvAf8B1QHTAfoB/wHw
-        Ae8B/AH/Aa4BqwH3Af8EAAJVAVcBtwIBAewB/wIMAfIB/wIUAfMB/wKZAfkB/wKLAfkB/wIjAfQB/wIY
-        AfMB/wK6AfsF/wL0Af4B/wIAAfEB/wIAAfAB/wIOAbcB/QMfASwUAAMPARQBWQFbAVkBxAFFAfABUwH/
-        AUkB8gFYAf8BbwHyAYgB/wFfAe0BbAH/ATgB4wFHAf8BWQFoAVkB7AMnAToDAAEBRAABvwG9AfkB/wLz
-        AfwB/wEjARsB7wH/ARYBDQHuAf8BFgENAe4B/wFZAVMB8gH/A/0B/wP9Af8D/QH/AvsB/QH/AVsBVAHz
-        Af8BFgENAe4B/wEWAQ0B7gH/AScBHwHvAf8B+gH5Af0B/wG9AboB+QH/AxYBHwIYAbgB/QITAfMB/wId
-        AfQB/wImAfUB/wKNAfkF/wLVAf0B/wKAAfgJ/wKwAfsB/wIAAfAB/wIAAfAB/wIAAegB/wJLAUwBjxAA
-        AwcBCQNQAZ4BNgHcAUMB/wE7AecBSgH/AWEB6QFtAf8BggHpAYwB/wGHAegBkAH/AWUB4QFwAf8BKAHN
-        ATYB/wFaAV4BWgHVAxcBIEQAAb8BvQH5Af8B7AHrAfwB/wEWAQ0B7gH/ARYBDQHuAf8BFgENAe4B/wGe
-        AZoB9wH/A/0B/wP9Af8D/QH/A/0B/wHRAc8B+gH/ARYBDQHuAf8BFgENAe4B/wEWAQ0B7gH/AfcB9gH9
-        Af8BvQG6AfkB/wM4AV4CDAHiAf8CIwH0Af8CLgH1Af8CNwH2Af8CPQH3Af8CvQH8Df8C5wH+Af8CIQHz
-        Af8CAQHxAf8CAAHwAf8CAAHwAf8CWQFcAc8MAAMCAQMDQgF0AUABrAFAAf0BLwHcAT4B/wFPAd8BXAH/
-        AWwB4gGDAf8BXQHPAWUB/wGDAd4BjAH/AY4B4AGWAf8BcQHZAYcB/wEkAbcBMQH/A1YBtAMLAQ9AAAG/
-        Ab0B+QH/AewB6wH8Af8BFgENAe4B/wEWAQ0B7gH/ARYBDQHuAf8BoAGcAfcB/wP9Af8D/QH/A/0B/wHc
-        AdsB+wH/AfcB9gH9Af8BFwEOAe4B/wEWAQ0B7gH/ARYBDQHuAf8B9wH2Af0B/wG+AbsB+QH/AkUBRgF+
-        AhwB6wH/AjIB9gH/Aj8B9wH/AkkB+AH/Ak8B+QH/Am4B+gn/Av0C/wJYAfcB/wIWAfMB/wIGAfEB/wIA
-        AfAB/wIAAfAB/wJLAXAB7wsAAQEBMAExATABTQFCAW0BQgH1ASMB0AEyAf8BOQHSAUcB/wFkAdoBbgH/
-        AV8BngFfAfsDQwF4AVoBYQFaAeQBkAHaAZcB/wGZAdsBnwH/AZEB1gGXAf8BVAG5AVsB/wM2AVlAAAG/
-        Ab0B+QH/Ae0B7AH8Af8BFgENAe4B/wEWAQ0B7gH/ARYBDQHuAf8BoAGcAfcB/wP9Af8D/QH/A/0B/wGR
-        AYwB9gH/AvwB/QH/AR8BFwHvAf8BFgENAe4B/wEWAQ0B7gH/AfcB9gH9Af8BvgG7AfkB/wJFAUYBfgIn
-        AewB/wJBAfcB/wJPAfgB/wJbAfoB/wJiAfoB/wLSAf0J/wLFAfwB/wIrAfUB/wIaAfMB/wIIAfIB/wIA
-        AfAB/wIAAfAB/wJIAXIB8AgAAx8BLAFZAWEBWQHkARcBwgEmAf8BIwHEATEB/wFaAdEBZAH/AVUBzQFf
-        Af8DSAGGAwMBBAMsAUQBSQF9AV4B9gGhAdYBpwH/AasB2AGwAf8DXQHTAxABFkAAAb4BvAH5Af8C7QH8
-        Af8BFgENAe4B/wEWAQ0B7gH/ARYBDQHuAf8BngGaAfYB/wP9Af8D/QH/A/0B/wGGAYEB9QH/AdQB0gH6
-        Af8BSgFEAfIB/wEWAQ0B7gH/ARYBDQHuAf8C9wH9Af8BvwG9AfkB/wI5AToBYAInAeUB/wJOAfgB/wJe
-        AfoB/wJsAfsB/wLLAf4N/wLxAf4B/wI7AfYB/wIbAfMB/wIIAfIB/wIAAfAB/wIAAfAB/wJYAVwB0QQA
-        AxEBFwNbAcgBCgGvARkB/wENAbQBGwH/AU0BxwFXAf8BWAHIAWEB/wFVAVYBVQGxAwcBCgQAAwEBAgE+
-        AT8BPgFsAX8BsQF/Af4BWQFsAV8B7AMhATBEAAG+AbwB+QH/AvYB/AH/AS0BJQHwAf8BFgENAe4B/wEW
-        AQ0B7gH/AZYBkgH2Af8D/QH/A/0B/wP9Af8BhwGCAfUB/wEqASIB7wH/ASoBIgHvAf8BFgENAe4B/wEy
-        ASoB8AH/AvsB/QH/Ab4BuwH5Af8DGAEiAiUBugH+AlgB+QH/AmoB+wH/AqkB/Qn/AtMB/gH/Ar0B/AX/
-        ArcB+wH/AhgB8wH/AgYB8QH/AgAB8AH/AgAB6QH/A0wBkgMIAQsBUAFSAVABowEAAZkBCwH/AQABowEI
-        Af8BPAG4AUYB/wFYAb8BYQH/AVoBXgFaAdUDEgEYDAADBAEGA0oBjAMyAVADAAEBRAABsgGvAfgB/wHq
-        AekB/AH/Ad4B3AH7Af8BLgEmAfAB/wEWAQ0B7gH/AYoBhgH1Af8C9QH8Af8D/QH/A/0B/wGIAYMB9QH/
-        ARYBDQHuAf8BFgENAe4B/wExASkB8AH/AeIB4QH7Af8B5gHlAfsB/wG2AbMB+AH/BAACVgFYAbsCVAH1
-        Af8CbgH7Af8CkwH9Af8C4AH+Af8C7wH+Af8CaQH6Af8CUQH4Af8CygH8Af8C/gL/AkAB9QH/AgEB8QH/
-        AgAB8AH/AgABtwH+AyABLwE/AUABPwFvAS4BfwE3Af4BAAGLAQAB/wEsAaEBNgH/AVkBsgFgAf8BWAFo
-        AVsB7QEhASIBIQExFAADAgEDAwABAUgAA/0B/wGuAasB9wH/AeoB6QH8Af8B3gHdAfsB/wEuASYB8AH/
-        ARYBDQHuAf8BZwFhAfQB/wHcAdoB+wH/AcwBygH6Af8BTwFIAfIB/wEWAQ0B7gH/ATIBKgHwAf8B4gHh
-        AfsB/wHmAeUB+wH/AbIBrwH4Af8D/QH/BAACIQEiATECPQGWAfkCaAH7Af8CcQH8Af8CbwH8Af8CZgH6
-        Af8CUwH5Af8CQgH3Af8CMAH1Af8CRQH2Af8CFwHzAf8CAAHwAf8CAAHkAf8CTwFRAZwEAANDAXgBBAFq
-        AQ0B/wEcAYgBJQH/AVkBqQFfAf8BTQGJAU0B+gE0ATUBNAFVAwABAWQAA/0B/wP9Af8BrgGrAfcB/wHp
-        AegB/AH/Ad4B3QH7Af8BNQEtAfAB/wEeARUB7wH/ATABKAHwAf8BLQElAfAB/wEeARUB7wH/ATcBLwHw
-        Af8B4gHhAfsB/wHmAeUB+wH/AbIBrwH4Af8D/QH/A/0B/wgAAzsBYwI9AbkB/QJfAfkB/wJdAfoB/wJT
-        AfkB/wJFAfcB/wI2AfYB/wImAfQB/wIVAfMB/wIDAfEB/wIAAeUB/wNbAcgDCAELBAADBgEIAVMBVQFT
-        Aa0BWQGnAWAB/wFUAasBWwH/AUUBRgFFAX8DAgEDaAAD/QH/A/0B/wP9Af8BrwGrAfcB/wHpAegB/AH/
-        A/0B/wP9Af8D/QH/A/0B/wP9Af8D/QH/AeYB5QH7Af8BsgGvAfgB/wP9Af8D/QH/A/0B/wwAAzQBVAJX
-        AW4B7AI1AekB/wJCAfcB/wI3AfYB/wIpAfUB/wIZAfMB/wIIAewB/wIAAdUB/wJRAVIBpwMKAQ0MAAMP
-        ARQDXAHRA1MBqgMHAQlsAAP9Af8D/QH/A/0B/wP9Af8BtQGyAfgB/wG2AbMB+AH/AbcBtAH4Af8BuAG1
-        AfgB/wG3AbQB+AH/AbYBswH4Af8BtgGzAfgB/wG3AbQB+AH/A/0B/wP9Af8D/QH/A/0B/xAAAw4BEwNE
-        AXoCWQFcAckCRwF/AfMCIQGbAfsCXQFjAeADUQGiAygBPRgAAxQBHAMLAQ9wAAFCAU0BPgcAAT4DAAEo
-        AwABQAMAARADAAEBAQABAQUAAYAXAAP/AwAB8AEPAf8BHwQAAeABAwH+AQ8EAAHAAQEB/AEHBAABgAEB
-        AfwBAwQAAYABAAH4AQEGAAHwAQEGAAHgBwABwAcAAcAHAAGAAUEHAAHhBAABgAEAAQEB8wQAAYACAQH/
-        BAABwAEBAQMB/wQAAeABAwGHAf8EAAHwAQ8BzwH/GAAL
-</value>
-  </data>
-  <data name="lblDestinationName.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;menuStrip.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="menuSettings.Text" xml:space="preserve">
-    <value>Settings..</value>
-  </data>
   <data name="&gt;&gt;imagePingState.Type" xml:space="preserve">
     <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblDestinationName.Text" xml:space="preserve">
-    <value>Target Name</value>
-  </data>
-  <data name="lblIPAddressTitle.Text" xml:space="preserve">
-    <value>Local IPv4 Address:</value>
-  </data>
-  <data name="lblFileName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 13</value>
-  </data>
-  <data name="menuStopPing.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 208</value>
-  </data>
-  <data name="txtDestinationAddress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 20</value>
-  </data>
-  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>Yes</value>
-  </data>
-  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
-    <value>136</value>
-  </data>
-  <data name="&gt;&gt;timerRefresh.Name" xml:space="preserve">
-    <value>timerRefresh</value>
+  <data name="&gt;&gt;openFileDialog.Name" xml:space="preserve">
+    <value>openFileDialog</value>
   </data>
   <data name="&gt;&gt;openFileDialog.Type" xml:space="preserve">
     <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;statusStrip1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblFontSize.Name" xml:space="preserve">
-    <value>lblFontSize</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>309, 468</value>
-  </data>
-  <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>309, 22</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
-    <value>toolStripSeparator1</value>
+  <data name="&gt;&gt;saveFileDialog.Name" xml:space="preserve">
+    <value>saveFileDialog</value>
   </data>
   <data name="&gt;&gt;saveFileDialog.Type" xml:space="preserve">
     <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="txtDestinationAddress.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
+  <data name="&gt;&gt;timerRefresh.Name" xml:space="preserve">
+    <value>timerRefresh</value>
   </data>
-  <data name="&gt;&gt;menuResumePing_Edit.Type" xml:space="preserve">
+  <data name="&gt;&gt;timerRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStopPing_Stop.Name" xml:space="preserve">
+    <value>menuStopPing_Stop</value>
+  </data>
+  <data name="&gt;&gt;menuStopPing_Stop.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtDestinationName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="menuStopPing_SSH.Text" xml:space="preserve">
-    <value>SSH</value>
-  </data>
-  <data name="&gt;&gt;numericFontSize.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;menuAutoInsert.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="menuStopPing_SSH.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 22</value>
-  </data>
-  <data name="&gt;&gt;txtFileName.Name" xml:space="preserve">
-    <value>txtFileName</value>
-  </data>
-  <data name="lblDestinationAddress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 13</value>
-  </data>
-  <data name="&gt;&gt;lblDestinationAddress.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;menuResumePing_Start.Name" xml:space="preserve">
-    <value>menuResumePing_Start</value>
-  </data>
-  <data name="&gt;&gt;menuAutoInsert.Name" xml:space="preserve">
-    <value>menuAutoInsert</value>
-  </data>
-  <data name="&gt;&gt;txtDestinationAddress.Name" xml:space="preserve">
-    <value>txtDestinationAddress</value>
-  </data>
-  <data name="&gt;&gt;menuStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnRemove.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="btnAdd.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;lblIPv4Address.Name" xml:space="preserve">
-    <value>lblIPv4Address</value>
-  </data>
-  <data name="&gt;&gt;toolStripDropDownButton1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStopPing_VNC.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtFileName.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="&gt;&gt;listView.ZOrder" xml:space="preserve">
-    <value>12</value>
   </data>
   <data name="&gt;&gt;menuStopPing_Edit.Name" xml:space="preserve">
     <value>menuStopPing_Edit</value>
   </data>
-  <data name="btnRemove.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="&gt;&gt;menuStopPing_Edit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="menuResumePing_Start.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 22</value>
+  <data name="&gt;&gt;menuStopPing_Remove.Name" xml:space="preserve">
+    <value>menuStopPing_Remove</value>
   </data>
-  <data name="statusStrip1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
+  <data name="&gt;&gt;menuStopPing_Remove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtDestinationName.ZOrder" xml:space="preserve">
-    <value>10</value>
+  <data name="&gt;&gt;menuStopPing_Stats.Name" xml:space="preserve">
+    <value>menuStopPing_Stats</value>
   </data>
-  <metadata name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>114, 4</value>
-  </metadata>
-  <metadata name="menuResumePing.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>617, 11</value>
-  </metadata>
-  <metadata name="timerRefresh.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>371, 10</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="imagePingState.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>243, 36</value>
-  </metadata>
-  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>133, 35</value>
-  </metadata>
-  <metadata name="saveFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>242, 8</value>
-  </metadata>
-  <metadata name="menuStopPing.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>495, 11</value>
-  </metadata>
-  <metadata name="menuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>13, 4</value>
-  </metadata>
-  <metadata name="imageListIcons.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>15, 34</value>
-  </metadata>
+  <data name="&gt;&gt;menuStopPing_Stats.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStopPing_Rapid.Name" xml:space="preserve">
+    <value>menuStopPing_Rapid</value>
+  </data>
+  <data name="&gt;&gt;menuStopPing_Rapid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStopPing_VNC.Name" xml:space="preserve">
+    <value>menuStopPing_VNC</value>
+  </data>
+  <data name="&gt;&gt;menuStopPing_VNC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStopPing_RemoteDesktop.Name" xml:space="preserve">
+    <value>menuStopPing_RemoteDesktop</value>
+  </data>
+  <data name="&gt;&gt;menuStopPing_RemoteDesktop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStopPing_Telnet.Name" xml:space="preserve">
+    <value>menuStopPing_Telnet</value>
+  </data>
+  <data name="&gt;&gt;menuStopPing_Telnet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStopPing_SSH.Name" xml:space="preserve">
+    <value>menuStopPing_SSH</value>
+  </data>
+  <data name="&gt;&gt;menuStopPing_SSH.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuResumePing_Start.Name" xml:space="preserve">
+    <value>menuResumePing_Start</value>
+  </data>
+  <data name="&gt;&gt;menuResumePing_Start.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuResumePing_Edit.Name" xml:space="preserve">
+    <value>menuResumePing_Edit</value>
+  </data>
+  <data name="&gt;&gt;menuResumePing_Edit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuResumePing_Remove.Name" xml:space="preserve">
+    <value>menuResumePing_Remove</value>
+  </data>
+  <data name="&gt;&gt;menuResumePing_Remove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageListIcons.Name" xml:space="preserve">
+    <value>imageListIcons</value>
+  </data>
+  <data name="&gt;&gt;imageListIcons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIPAddressTitle.Name" xml:space="preserve">
+    <value>lblIPAddressTitle</value>
+  </data>
+  <data name="&gt;&gt;lblIPAddressTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIPv4Address.Name" xml:space="preserve">
+    <value>lblIPv4Address</value>
+  </data>
+  <data name="&gt;&gt;lblIPv4Address.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripDropDownButton1.Name" xml:space="preserve">
+    <value>toolStripDropDownButton1</value>
+  </data>
+  <data name="&gt;&gt;toolStripDropDownButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripDropDownButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FrmMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
