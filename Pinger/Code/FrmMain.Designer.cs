@@ -84,27 +84,27 @@
             // 
             // menuStrip
             // 
+            resources.ApplyResources(this.menuStrip, "menuStrip");
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuFile,
             this.menuSettings,
             this.menuAutoInsert,
             this.menuAbout});
-            resources.ApplyResources(this.menuStrip, "menuStrip");
             this.menuStrip.Name = "menuStrip";
             // 
             // menuFile
             // 
+            resources.ApplyResources(this.menuFile, "menuFile");
             this.menuFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuOpen,
             this.menuSave,
             this.menuSaveAS});
             this.menuFile.Name = "menuFile";
-            resources.ApplyResources(this.menuFile, "menuFile");
             // 
             // menuOpen
             // 
-            this.menuOpen.Name = "menuOpen";
             resources.ApplyResources(this.menuOpen, "menuOpen");
+            this.menuOpen.Name = "menuOpen";
             this.menuOpen.Click += new System.EventHandler(this.menuOpen_Click);
             // 
             // menuSave
@@ -115,32 +115,32 @@
             // 
             // menuSaveAS
             // 
-            this.menuSaveAS.Name = "menuSaveAS";
             resources.ApplyResources(this.menuSaveAS, "menuSaveAS");
+            this.menuSaveAS.Name = "menuSaveAS";
             this.menuSaveAS.Click += new System.EventHandler(this.menuSaveAs_Click);
             // 
             // menuSettings
             // 
-            this.menuSettings.Name = "menuSettings";
             resources.ApplyResources(this.menuSettings, "menuSettings");
+            this.menuSettings.Name = "menuSettings";
             this.menuSettings.Click += new System.EventHandler(this.menuSettings_Click);
             // 
             // menuAutoInsert
             // 
-            this.menuAutoInsert.Name = "menuAutoInsert";
             resources.ApplyResources(this.menuAutoInsert, "menuAutoInsert");
+            this.menuAutoInsert.Name = "menuAutoInsert";
             this.menuAutoInsert.Click += new System.EventHandler(this.menuAutoInsert_Click);
             // 
             // menuAbout
             // 
-            this.menuAbout.Name = "menuAbout";
             resources.ApplyResources(this.menuAbout, "menuAbout");
+            this.menuAbout.Name = "menuAbout";
             this.menuAbout.Click += new System.EventHandler(this.menuAbout_Click);
             // 
             // listView
             // 
-            this.listView.AllowDrop = true;
             resources.ApplyResources(this.listView, "listView");
+            this.listView.AllowDrop = true;
             this.listView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2});
@@ -252,6 +252,7 @@
             // 
             // menuStopPing
             // 
+            resources.ApplyResources(this.menuStopPing, "menuStopPing");
             this.menuStopPing.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuStopPing_Stop,
             this.menuStopPing_Edit,
@@ -264,92 +265,91 @@
             this.menuStopPing_Telnet,
             this.menuStopPing_SSH});
             this.menuStopPing.Name = "menuStopPing";
-            resources.ApplyResources(this.menuStopPing, "menuStopPing");
             // 
             // menuStopPing_Stop
             // 
-            this.menuStopPing_Stop.Name = "menuStopPing_Stop";
             resources.ApplyResources(this.menuStopPing_Stop, "menuStopPing_Stop");
+            this.menuStopPing_Stop.Name = "menuStopPing_Stop";
             this.menuStopPing_Stop.Click += new System.EventHandler(this.menuStopPing_Stop_Click);
             // 
             // menuStopPing_Edit
             // 
-            this.menuStopPing_Edit.Name = "menuStopPing_Edit";
             resources.ApplyResources(this.menuStopPing_Edit, "menuStopPing_Edit");
+            this.menuStopPing_Edit.Name = "menuStopPing_Edit";
             this.menuStopPing_Edit.Click += new System.EventHandler(this.menuStopPing_Edit_Click);
             // 
             // menuStopPing_Remove
             // 
-            this.menuStopPing_Remove.Name = "menuStopPing_Remove";
             resources.ApplyResources(this.menuStopPing_Remove, "menuStopPing_Remove");
+            this.menuStopPing_Remove.Name = "menuStopPing_Remove";
             this.menuStopPing_Remove.Click += new System.EventHandler(this.menuStopPing_Remove_Click);
             // 
             // menuStopPing_Stats
             // 
-            this.menuStopPing_Stats.Name = "menuStopPing_Stats";
             resources.ApplyResources(this.menuStopPing_Stats, "menuStopPing_Stats");
+            this.menuStopPing_Stats.Name = "menuStopPing_Stats";
             this.menuStopPing_Stats.Click += new System.EventHandler(this.menuStopPing_Stats_Click);
             // 
             // menuStopPing_Rapid
             // 
-            this.menuStopPing_Rapid.Name = "menuStopPing_Rapid";
             resources.ApplyResources(this.menuStopPing_Rapid, "menuStopPing_Rapid");
+            this.menuStopPing_Rapid.Name = "menuStopPing_Rapid";
             this.menuStopPing_Rapid.Click += new System.EventHandler(this.menuStopPing_Rapid_Click);
             // 
             // toolStripSeparator1
             // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
             resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
             // 
             // menuStopPing_VNC
             // 
-            this.menuStopPing_VNC.Name = "menuStopPing_VNC";
             resources.ApplyResources(this.menuStopPing_VNC, "menuStopPing_VNC");
+            this.menuStopPing_VNC.Name = "menuStopPing_VNC";
             this.menuStopPing_VNC.Click += new System.EventHandler(this.menuStopPing_VNC_Click);
             // 
             // menuStopPing_RemoteDesktop
             // 
-            this.menuStopPing_RemoteDesktop.Name = "menuStopPing_RemoteDesktop";
             resources.ApplyResources(this.menuStopPing_RemoteDesktop, "menuStopPing_RemoteDesktop");
+            this.menuStopPing_RemoteDesktop.Name = "menuStopPing_RemoteDesktop";
             this.menuStopPing_RemoteDesktop.Click += new System.EventHandler(this.menuStopPing_RemoteDesktop_Click);
             // 
             // menuStopPing_Telnet
             // 
-            this.menuStopPing_Telnet.Name = "menuStopPing_Telnet";
             resources.ApplyResources(this.menuStopPing_Telnet, "menuStopPing_Telnet");
+            this.menuStopPing_Telnet.Name = "menuStopPing_Telnet";
             this.menuStopPing_Telnet.Click += new System.EventHandler(this.menuStopPing_Telnet_Click);
             // 
             // menuStopPing_SSH
             // 
-            this.menuStopPing_SSH.Name = "menuStopPing_SSH";
             resources.ApplyResources(this.menuStopPing_SSH, "menuStopPing_SSH");
+            this.menuStopPing_SSH.Name = "menuStopPing_SSH";
             this.menuStopPing_SSH.Click += new System.EventHandler(this.menuStopPing_SSH_Click);
             // 
             // menuResumePing
             // 
+            resources.ApplyResources(this.menuResumePing, "menuResumePing");
             this.menuResumePing.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuResumePing_Start,
             this.menuResumePing_Edit,
             this.menuResumePing_Remove});
             this.menuResumePing.Name = "menuResumePing";
-            resources.ApplyResources(this.menuResumePing, "menuResumePing");
             // 
             // menuResumePing_Start
             // 
-            this.menuResumePing_Start.Name = "menuResumePing_Start";
             resources.ApplyResources(this.menuResumePing_Start, "menuResumePing_Start");
+            this.menuResumePing_Start.Name = "menuResumePing_Start";
             this.menuResumePing_Start.Click += new System.EventHandler(this.menuResumePing_Start_Click);
             // 
             // menuResumePing_Edit
             // 
-            this.menuResumePing_Edit.Name = "menuResumePing_Edit";
             resources.ApplyResources(this.menuResumePing_Edit, "menuResumePing_Edit");
+            this.menuResumePing_Edit.Name = "menuResumePing_Edit";
             this.menuResumePing_Edit.Click += new System.EventHandler(this.menuResumePing_Edit_Click);
             // 
             // menuResumePing_Remove
             // 
-            this.menuResumePing_Remove.Name = "menuResumePing_Remove";
             resources.ApplyResources(this.menuResumePing_Remove, "menuResumePing_Remove");
+            this.menuResumePing_Remove.Name = "menuResumePing_Remove";
             this.menuResumePing_Remove.Click += new System.EventHandler(this.menuResumePing_Remove_Click);
             // 
             // imageListIcons
@@ -362,27 +362,27 @@
             // 
             // statusStrip1
             // 
+            resources.ApplyResources(this.statusStrip1, "statusStrip1");
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lblIPAddressTitle,
             this.lblIPv4Address,
             this.toolStripDropDownButton1});
-            resources.ApplyResources(this.statusStrip1, "statusStrip1");
             this.statusStrip1.Name = "statusStrip1";
             // 
             // lblIPAddressTitle
             // 
-            this.lblIPAddressTitle.Name = "lblIPAddressTitle";
             resources.ApplyResources(this.lblIPAddressTitle, "lblIPAddressTitle");
+            this.lblIPAddressTitle.Name = "lblIPAddressTitle";
             // 
             // lblIPv4Address
             // 
-            this.lblIPv4Address.Name = "lblIPv4Address";
             resources.ApplyResources(this.lblIPv4Address, "lblIPv4Address");
+            this.lblIPv4Address.Name = "lblIPv4Address";
             // 
             // toolStripDropDownButton1
             // 
-            this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             resources.ApplyResources(this.toolStripDropDownButton1, "toolStripDropDownButton1");
+            this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
             // 
             // lblFileName
@@ -392,9 +392,9 @@
             // 
             // txtFileName
             // 
+            resources.ApplyResources(this.txtFileName, "txtFileName");
             this.txtFileName.BackColor = System.Drawing.SystemColors.ControlLight;
             this.txtFileName.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            resources.ApplyResources(this.txtFileName, "txtFileName");
             this.txtFileName.Name = "txtFileName";
             this.txtFileName.ReadOnly = true;
             // 
