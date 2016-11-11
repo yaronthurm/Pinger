@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading;
 using System.Net.NetworkInformation;
+using System.Threading.Tasks;
 
 namespace PingTester
 {
@@ -42,8 +43,8 @@ namespace PingTester
         private int stabilityCount;
         private int distanceToLastFail;
         private State state;
-        private Thread runThreadHandler;
-        private bool run = false;
+        private Task runTask;
+        private volatile bool run = false;
         private bool stopped = false;
         private bool isStopping = false;
         private ulong successfullPingsCount;
@@ -109,7 +110,7 @@ namespace PingTester
             this.state = State.Unknown;            
         }
 
-
+        
         public void Start()
         {
             lock (_locker) {
@@ -120,20 +121,18 @@ namespace PingTester
                 this.run = true;
                 this.isStopping = false;
                 this.stopped = false;
-                this.runThreadHandler = new Thread(new ThreadStart(this.RunThread));
-                this.runThreadHandler.IsBackground = true;
-                this.runThreadHandler.Start();
+                this.runTask = Task.Run(PingLoop);
             }
         }
 
         public void Stop()
         {
             lock (_locker) {
-                if (this.runThreadHandler == null)
+                if (this.runTask == null)
                     return;
 
                 this.run = false;
-                this.runThreadHandler.Join();
+                this.runTask.Wait();
 
                 this.state = State.Unknown;
                 this.stopped = true;
@@ -232,12 +231,12 @@ namespace PingTester
             }
         }
 
-        private void RunThread()
+        private async Task PingLoop()
         {
             Ping pinger = new Ping();
             PingOptions options = new PingOptions();
             PingReply reply;
-            
+
             while (this.run)
             {
                 try
@@ -246,7 +245,7 @@ namespace PingTester
                     options.Ttl = this.timeToLive;
                     options.DontFragment = this.dontFragment;
 
-                    reply = pinger.Send(this.destinationAddress, this.timeoutDelay, this.buffer, options);
+                    reply = await pinger.SendPingAsync(this.destinationAddress, this.timeoutDelay, this.buffer, options);
 
                     if (reply.Status == IPStatus.Success)
                         this.Successed();
@@ -271,12 +270,12 @@ namespace PingTester
 
                 // Sleep
                 if (this.pingInterval > 0)
-                    System.Threading.Thread.Sleep(this.pingInterval);
-            }            
+                    await Task.Delay(this.pingInterval);
+            }
         }
-        
-     
-   
+
+
+
         #region Properties
         public string DestinationName
         {
