@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -272,40 +273,21 @@ namespace PingTester
 
             this._expression = this.txtInsertFormatString.Text;
 
-            // Find out how many formats in the input string
-            this._numberOfFormats = 0;
-            bool continueLoop = true;
-            while (continueLoop)
+            // Find out how many formats in the input string (up to 10 are supported)
+            for (int i = 0; i <= 10; i++)
             {
                 try
                 {
-                    object[] objectsArray = new object[this._numberOfFormats];
-                    for (int i = 0; i < objectsArray.Length; i++)
-                    {
-                        objectsArray[i] = new object();
-                        objectsArray[i] = i;
-                    }
+                    object[] objectsArray = Enumerable.Range(0, i).Cast<object>().ToArray();
                     this.lblExample.Text = string.Format(this._expression, objectsArray);
-                    continueLoop = false;
                     this._isFormatStringOK = true;
-                }
-                catch (FormatException ex)
-                {
-                    if (ex.TargetSite.Name == "AppendFormat")
-                        // ex.Message == "Index (zero based) must be greater than or equal to 
-                        //                zero and less than the size of the argument list"
-                        this._numberOfFormats++;
-                    else
-                    {
-                        continueLoop = false;
-                        this._isFormatStringOK = false;
-                    }
+                    this._numberOfFormats = i;
+                    break;
                 }
                 catch (Exception)
                 {
-                    continueLoop = false;
                     this._isFormatStringOK = false;
-                }                
+                }
             }
             if (!this._isFormatStringOK)
             {
