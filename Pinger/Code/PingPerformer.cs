@@ -121,6 +121,7 @@ namespace PingTester
                 this.run = true; // Allow PingLoop to run
                 this.runTask = Task.Run(PingLoop);
                 this.running = true;
+                this.isStopping = false;
             }
         }
 
