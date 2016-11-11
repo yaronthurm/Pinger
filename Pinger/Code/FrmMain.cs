@@ -276,7 +276,7 @@ namespace PingTester
                     for (int i = this.listView.SelectedIndices.Count - 1; i >= 0; i--)
                     {
                         int index = this.listView.SelectedIndices[i];
-                        this._pingPerformers[index].BeginStop();
+                        this._pingPerformers[index].InitiateStop();
                     }
 
                     // Go throw every selected item from the last to the first one
@@ -574,7 +574,7 @@ namespace PingTester
             {
                 if (!this._pingPerformers[index].Stopped)
                 {
-                    this._pingPerformers[index].BeginStop();
+                    this._pingPerformers[index].InitiateStop();
                     this.listView.Items[index].BackColor = Color.FromKnownColor(KnownColor.Window);
                     this.listView.Items[index].ImageIndex = (int)StateImageID.Stopped;
                 }
@@ -689,9 +689,6 @@ namespace PingTester
                 }
                 else
                 {
-                    if (sender.IsStopping)
-                        return;
-
                     if (e.State == State.Success)
                     {                        
                         this.listView.Items[index].BackColor = Color.Lime;

@@ -42,11 +42,10 @@ namespace PingTester
         private int sequentNumber;
         private int stabilityCount;
         private int distanceToLastFail;
-        private State state;
+        private volatile State state;
         private Task runTask;
-        private volatile bool run = false;
-        private bool stopped = false;
-        private bool isStopping = false;
+        private volatile bool run;
+        private volatile bool running;
         private ulong successfullPingsCount;
         private ulong failedPingsCount;
         private object _locker = new object();
@@ -110,41 +109,46 @@ namespace PingTester
             this.state = State.Unknown;            
         }
 
-        
+
         public void Start()
         {
-            lock (_locker) {
+            lock (_locker)
+            {
                 // Don't start anything if it's already running
-                if (this.run == true)
+                if (this.running)
                     return;
-
-                this.run = true;
-                this.isStopping = false;
-                this.stopped = false;
+                this.run = true; // Allow PingLoop to run
                 this.runTask = Task.Run(PingLoop);
+                this.running = true;
             }
         }
 
         public void Stop()
         {
-            lock (_locker) {
-                if (this.runTask == null)
+            lock (_locker)
+            {
+                if (!this.running)
                     return;
-
-                this.run = false;
-                this.runTask.Wait();
-
+                this.run = false; // Signal PingLoop to exit
+                this.runTask.Wait(); // Wait for PingLoop to finish
                 this.state = State.Unknown;
-                this.stopped = true;
+                this.running = false;
             }
         }
 
-        public void BeginStop()
+        public async void InitiateStop()
         {
-            this.isStopping = true;
-            Thread t = new Thread(new ThreadStart(this.Stop));
-            t.IsBackground = true;
-            t.Start();
+            lock (_locker)
+            {
+                if (!this.running)
+                    return;
+                this.run = false; // Signal loop to exit
+            }
+
+            await runTask; // Await for loop to finish
+
+            this.state = State.Unknown;
+            this.running = false;
         }
 
         public void ResetStatistics()
@@ -296,14 +300,8 @@ namespace PingTester
 
         public bool Stopped
         {
-            get { return this.stopped; }
+            get { return !this.running; }
         }
-
-        public bool IsStopping
-        {
-            get { return this.isStopping; }
-        }
-
 
         public ulong SuccessfullPingsCount
         {
