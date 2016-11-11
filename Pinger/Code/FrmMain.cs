@@ -689,6 +689,9 @@ namespace PingTester
                 }
                 else
                 {
+                    if (sender.IsStopping)
+                        return;
+
                     if (e.State == State.Success)
                     {                        
                         this.listView.Items[index].BackColor = Color.Lime;

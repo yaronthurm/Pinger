@@ -46,6 +46,7 @@ namespace PingTester
         private Task runTask;
         private volatile bool run;
         private volatile bool running;
+        private volatile bool isStopping;
         private ulong successfullPingsCount;
         private ulong failedPingsCount;
         private object _locker = new object();
@@ -143,12 +144,14 @@ namespace PingTester
                 if (!this.running)
                     return;
                 this.run = false; // Signal loop to exit
+                this.isStopping = true;
             }
 
             await runTask; // Await for loop to finish
 
             this.state = State.Unknown;
             this.running = false;
+            this.isStopping = false;
         }
 
         public void ResetStatistics()
@@ -303,6 +306,11 @@ namespace PingTester
             get { return !this.running; }
         }
 
+        public bool IsStopping
+        {
+            get { return this.isStopping; }
+
+        }
         public ulong SuccessfullPingsCount
         {
             get { return this.successfullPingsCount; }
