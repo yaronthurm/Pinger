@@ -59,11 +59,6 @@
             this.menuStopPing_Remove = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStopPing_Stats = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStopPing_Rapid = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.menuStopPing_VNC = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStopPing_RemoteDesktop = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStopPing_Telnet = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStopPing_SSH = new System.Windows.Forms.ToolStripMenuItem();
             this.menuResumePing = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuResumePing_Start = new System.Windows.Forms.ToolStripMenuItem();
             this.menuResumePing_Edit = new System.Windows.Forms.ToolStripMenuItem();
@@ -84,6 +79,7 @@
             // 
             // menuStrip
             // 
+            this.menuStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuFile,
             this.menuSettings,
@@ -146,6 +142,7 @@
             this.columnHeader2});
             this.listView.FullRowSelect = true;
             this.listView.GridLines = true;
+            this.listView.HideSelection = false;
             this.listView.Name = "listView";
             this.listView.SmallImageList = this.imagePingState;
             this.listView.UseCompatibleStateImageBehavior = false;
@@ -252,17 +249,13 @@
             // 
             // menuStopPing
             // 
+            this.menuStopPing.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStopPing.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuStopPing_Stop,
             this.menuStopPing_Edit,
             this.menuStopPing_Remove,
             this.menuStopPing_Stats,
-            this.menuStopPing_Rapid,
-            this.toolStripSeparator1,
-            this.menuStopPing_VNC,
-            this.menuStopPing_RemoteDesktop,
-            this.menuStopPing_Telnet,
-            this.menuStopPing_SSH});
+            this.menuStopPing_Rapid});
             this.menuStopPing.Name = "menuStopPing";
             resources.ApplyResources(this.menuStopPing, "menuStopPing");
             // 
@@ -296,37 +289,9 @@
             resources.ApplyResources(this.menuStopPing_Rapid, "menuStopPing_Rapid");
             this.menuStopPing_Rapid.Click += new System.EventHandler(this.menuStopPing_Rapid_Click);
             // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
-            // 
-            // menuStopPing_VNC
-            // 
-            this.menuStopPing_VNC.Name = "menuStopPing_VNC";
-            resources.ApplyResources(this.menuStopPing_VNC, "menuStopPing_VNC");
-            this.menuStopPing_VNC.Click += new System.EventHandler(this.menuStopPing_VNC_Click);
-            // 
-            // menuStopPing_RemoteDesktop
-            // 
-            this.menuStopPing_RemoteDesktop.Name = "menuStopPing_RemoteDesktop";
-            resources.ApplyResources(this.menuStopPing_RemoteDesktop, "menuStopPing_RemoteDesktop");
-            this.menuStopPing_RemoteDesktop.Click += new System.EventHandler(this.menuStopPing_RemoteDesktop_Click);
-            // 
-            // menuStopPing_Telnet
-            // 
-            this.menuStopPing_Telnet.Name = "menuStopPing_Telnet";
-            resources.ApplyResources(this.menuStopPing_Telnet, "menuStopPing_Telnet");
-            this.menuStopPing_Telnet.Click += new System.EventHandler(this.menuStopPing_Telnet_Click);
-            // 
-            // menuStopPing_SSH
-            // 
-            this.menuStopPing_SSH.Name = "menuStopPing_SSH";
-            resources.ApplyResources(this.menuStopPing_SSH, "menuStopPing_SSH");
-            this.menuStopPing_SSH.Click += new System.EventHandler(this.menuStopPing_SSH_Click);
-            // 
             // menuResumePing
             // 
+            this.menuResumePing.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuResumePing.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuResumePing_Start,
             this.menuResumePing_Edit,
@@ -362,6 +327,7 @@
             // 
             // statusStrip1
             // 
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lblIPAddressTitle,
             this.lblIPv4Address,
@@ -470,11 +436,6 @@
         private System.Windows.Forms.ToolStripMenuItem menuAbout;
         public System.Windows.Forms.ImageList imagePingState;
         private System.Windows.Forms.ToolStripMenuItem menuStopPing_Stats;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripMenuItem menuStopPing_VNC;
-        private System.Windows.Forms.ToolStripMenuItem menuStopPing_RemoteDesktop;
-        private System.Windows.Forms.ToolStripMenuItem menuStopPing_Telnet;
-        private System.Windows.Forms.ToolStripMenuItem menuStopPing_SSH;
         private System.Windows.Forms.ToolStripMenuItem menuStopPing_Rapid;
         private System.Windows.Forms.Label lblFileName;
         private System.Windows.Forms.TextBox txtFileName;

@@ -606,36 +606,6 @@ namespace PingTester
             this._rapidForm.Show();
             this._rapidForm.Focus();
         }
-        private void menuStopPing_VNC_Click(object sender, EventArgs e)
-        {
-            if (this.listView.SelectedItems.Count <= 0)
-                return;
-            Process.Start(
-                AppDomain.CurrentDomain.BaseDirectory + "vncviewer.exe",
-                this.listView.SelectedItems[0].SubItems[1].Text);
-        }
-        private void menuStopPing_RemoteDesktop_Click(object sender, EventArgs e)
-        {
-            if (this.listView.SelectedItems.Count <= 0)
-                return;
-            Process.Start("mstsc", "/v:" + this.listView.SelectedItems[0].SubItems[1].Text);
-        }
-        private void menuStopPing_Telnet_Click(object sender, EventArgs e)
-        {
-            if (this.listView.SelectedItems.Count <= 0)
-                return;
-            Process.Start(
-                AppDomain.CurrentDomain.BaseDirectory + "putty.exe", 
-                "telnet://" + this.listView.SelectedItems[0].SubItems[1].Text);
-        }
-        private void menuStopPing_SSH_Click(object sender, EventArgs e)
-        {
-            if (this.listView.SelectedItems.Count <= 0)
-                return;
-            Process.Start(
-                AppDomain.CurrentDomain.BaseDirectory + "putty.exe", 
-                "-ssh " + this.listView.SelectedItems[0].SubItems[1].Text);
-        }
         #endregion
 
         #region Events handlers for events raised from within the PingPerformers objects
