@@ -102,11 +102,6 @@ namespace PingTester
         #region Constructor
         public FrmMain()
         {
-            InitializeComponent();
-
-            // Save design-mode caption
-            this._originalCaption = this.Text;
-
             // Initialize members
             this._aboutForm = new FrmAbout();
             this._pingPerformers = new List<PingPerformer>();
@@ -117,6 +112,12 @@ namespace PingTester
             this._editItemForm = new FrmEditItem();
             this._rapidForm = new FrmRapid();
             this._ipNotifier = new YaronThurm.Network.IPChangeNotifier();
+
+
+            InitializeComponent();
+
+            // Save design-mode caption
+            this._originalCaption = this.Text;
 
             // Set form's icons
             this._formsIcons = new List<Icon>();
