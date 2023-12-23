@@ -291,19 +291,14 @@ namespace PingTester
             }
             if (!this._isFormatStringOK)
             {
-                this.lblExample.Text = "שגיאה במחרוזת";
+                this.lblExample.Text = "invalid format string";
                 this._numberOfFormats = this._previousNumberOfFormats;
             }
             else if (this._numberOfFormats != this._previousNumberOfFormats)
             {                
                 this.SetCustomNumerics();
             }
-        }
-        private void lblTotalElements_SizeChanged(object sender, EventArgs e)
-        {
-            // Locate the label on the left of its title label
-            this.lblTotalElements.Left = this.lblTotalElementsTitle.Left - this.lblTotalElements.Width;
-        }
+        }  
         
         #endregion
 
